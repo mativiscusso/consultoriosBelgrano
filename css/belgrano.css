@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+ul {
+    list-style: none;
+}
+
 nav#barraMenu {
     background-color: rgba(255, 255, 255, 1);
     box-shadow: 1px -15px 20px 1px;
@@ -45,6 +49,14 @@ div#faqs {
 
 div#contacto {
     padding-top: 15%;
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+span#empresas {
+    text-align: center;
 }
 
 @media(min-width: 768px) {
