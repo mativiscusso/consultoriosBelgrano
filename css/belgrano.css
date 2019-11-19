@@ -1,8 +1,15 @@
+a#logo {
+    width: 50%;
+    display: flex;
+}
+
+a#logo img {
+    width: 50%;
+    display: flex;
+}
+
 @media(min-width: 768px) {
     div#carouselportada {
         height: 75vh;
-    }
-    a#logo {
-        margin-right: 37%;
     }
 }
