@@ -1,3 +1,8 @@
+a#logo img {
+    width: 20%;
+    display: flex;
+}
+
 @media(min-width: 768px) {
     div#carouselportada {
         height: 75vh;
