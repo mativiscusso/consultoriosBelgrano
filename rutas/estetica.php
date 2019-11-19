@@ -1,5 +1,5 @@
 <?php
-require_once('../header.php');
+require_once('header.php');
 ?>
     <div class="container py-5">
         <h1>Servicios de tratamiento estetico</h1>
@@ -69,5 +69,5 @@ require_once('../header.php');
 
 
 <?php
-require_once('../footer.php');
+require_once('footer.php');
 ?>

@@ -1,7 +1,7 @@
 <?php
-require_once('../header.php');
+require_once('header.php');
 ?>
-<div class="container py-5">
+<div id="contacto" class="container">
     <h1>Contactenos</h1>
 <form>
     <div class="form-group">
@@ -26,5 +26,5 @@ require_once('../header.php');
 
 
 <?php
-require_once('../footer.php');
+require_once('footer.php');
 ?>

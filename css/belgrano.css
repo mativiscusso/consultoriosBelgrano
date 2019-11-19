@@ -1,18 +1,48 @@
+nav#barraMenu {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+}
+
+a#logo {
+    width: 50%;
+}
+
 a#logo img {
-    width: 40%;
-    display: flex;
+    width: 60%;
+}
+
+div#quienes {
+    background-color: rgba(0, 100, 150, 0.5);
+}
+
+div#faqs {
+    padding-top: 15%;
+}
+
+div#contacto {
+    padding-top: 15%;
 }
 
 @media(min-width: 768px) {
     div#carouselportada {
-        height: 75vh;
+        height: 85vh;
     }
     a#logo {
-        width: 50%;
-        display: flex;
+        width: 40%;
     }
     a#logo img {
         width: 50%;
-        display: flex;
+    }
+    nav#barraMenu {
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+    div#faqs {
+        padding-top: 10%;
+    }
+    div#contacto {
+        padding-top: 10%;
     }
 }
