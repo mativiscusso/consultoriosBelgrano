@@ -52,7 +52,7 @@
     <body>
         
 
-    <div class="carousel slide" data-ride="carousel">
+    <div id="carousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -83,7 +83,7 @@
         <h1>JORNADAS DEL MES</h1>
         <div class="row">
             <div class="col-12 col-sm-6 col-md-4 py-2">
-                <div id="jornada1" class="card" style="width: 18rem;">
+                <div id="jornada1" class="card">
                     <img src="https://picsum.photos/200/200?random=3" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -93,7 +93,7 @@
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-md-4 py-2">
-                <div id="jornada2" class="card" style="width: 18rem;">
+                <div id="jornada2" class="card">
                     <img src="https://picsum.photos/200/200?random=4" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -103,7 +103,7 @@
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-md-4 py-2">
-                <div id="jornada3" class="card" style="width: 18rem;">
+                <div id="jornada3" class="card">
                     <img src="https://picsum.photos/200/200?random=35" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -113,7 +113,7 @@
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-md-4 py-2">
-                <div id="jornada4" class="card" style="width: 18rem;">
+                <div id="jornada4" class="card">
                     <img src="https://picsum.photos/200/200?random=5" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -123,7 +123,7 @@
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-md-4 py-2">
-                <div id="jornada4" class="card" style="width: 18rem;">
+                <div id="jornada4" class="card">
                     <img src="https://picsum.photos/200/200?random=5" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -133,7 +133,7 @@
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-md-4 py-2">
-                <div id="jornada4" class="card" style="width: 18rem;">
+                <div id="jornada4" class="card">
                     <img src="https://picsum.photos/200/200?random=5" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -152,7 +152,7 @@
             <div id="quienesleft" class="col-12 col-md-4">
                 <img src="https://picsum.photos/300/300?random=5" alt="">
             </div>
-            <div id="quienesright" class="col-12 col-md-8">
+            <div id="quienesright" class="col-12 col-md-8 py-4">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ea nam, libero sint numquam vel nesciunt nulla tenetur optio iure omnis quo ut temporibus consequatur atque aperiam suscipit? Autem laborum animi, voluptatibus incidunt quibusdam
                     vel cum? Corporis necessitatibus voluptatem debitis? Obcaecati nostrum repellendus modi quos, architecto provident laboriosam ad hic assumenda corrupti officia quae consequatur odio qui exercitationem nisi magni ullam ducimus! Ab facere
                     et delectus mollitia totam quod incidunt maiores eaque reiciendis aspernatur cum odit libero, temporibus culpa officiis corporis qui id similique cupiditate dicta aut dolores magnam. Ut ea vel vitae debitis repudiandae dolores quis
@@ -169,5 +169,5 @@
 
 
     <?php
-require_once('footer.php');
+require_once('rutas/footer.php');
 ?>

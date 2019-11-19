@@ -1,5 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
 nav#barraMenu {
     background-color: rgba(255, 255, 255, 1);
+    box-shadow: 1px -15px 20px 1px;
+}
+
+div.dropdown-menu.show {
+    border: 0;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -14,8 +23,20 @@ a#logo img {
     width: 60%;
 }
 
+div#carousel {
+    margin-top: 15%;
+}
+
+div.card {
+    width: 100%;
+}
+
 div#quienes {
     background-color: rgba(0, 100, 150, 0.5);
+}
+
+div#quienes img {
+    border-radius: 50%;
 }
 
 div#faqs {
@@ -37,12 +58,15 @@ div#contacto {
         width: 50%;
     }
     nav#barraMenu {
-        background-color: rgba(255, 255, 255, 0.7);
+        background-color: rgba(255, 255, 255, 0.8);
     }
     div#faqs {
         padding-top: 10%;
     }
     div#contacto {
         padding-top: 10%;
+    }
+    div#carousel {
+        margin-top: 0%;
     }
 }
