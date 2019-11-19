@@ -1,0 +1,8 @@
+@media(min-width: 768px) {
+    div#carouselportada {
+        height: 75vh;
+    }
+    a#logo {
+        margin-right: 37%;
+    }
+}
