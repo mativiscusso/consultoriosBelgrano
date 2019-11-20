@@ -62,13 +62,13 @@
             </ol>
             <div id="carouselportada" class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="https://picsum.photos/600/300" class="d-block w-100" alt="...">
+                    <img src="img/bc.png" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="https://picsum.photos/600/300" class="d-block w-100" alt="...">
+                    <img src="img/bc.png" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="https://picsum.photos/600/300" class="d-block w-100" alt="...">
+                    <img src="img/bc.png" class="d-block w-100" alt="...">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
