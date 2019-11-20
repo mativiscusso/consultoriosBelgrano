@@ -35,6 +35,20 @@ div.card {
     width: 100%;
 }
 
+div#jornadas {
+    border: 0;
+}
+
+div#jornadas img {
+    border-radius: 50%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    text-align: center;
+}
+
 div#quienes {
     background-color: rgba(0, 100, 150, 0.5);
 }
@@ -52,32 +66,45 @@ div#contacto {
 }
 
 footer {
-    background-color: rgba(255, 255, 255, 0.5);
+    display: grid;
+    background-color: rgb(80, 80, 80);
+    color: white;
 }
 
 span#empresas {
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+iframe {
+     width: 100%;
+     height: 50%;
 }
 
 @media(min-width: 768px) {
     div#carouselportada {
         height: 85vh;
     }
+
     a#logo {
         width: 40%;
     }
+
     a#logo img {
         width: 50%;
     }
+
     nav#barraMenu {
         background-color: rgba(255, 255, 255, 0.8);
     }
+
     div#faqs {
         padding-top: 10%;
     }
+
     div#contacto {
         padding-top: 10%;
     }
+
     div#carousel {
         margin-top: 0%;
     }
