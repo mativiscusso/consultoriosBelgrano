@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 
 ul {
     list-style: none;
@@ -55,6 +58,13 @@ div#quienes {
 
 div#quienes img {
     border-radius: 50%;
+}
+div iframe {
+    height: 100%;
+}
+span.display-3 {
+    font-weight: 300;
+    margin: -10% 0 -10% 0;
 }
 
 div#faqs {
