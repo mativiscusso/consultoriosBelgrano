@@ -75,6 +75,10 @@ div#contacto {
     padding-top: 15%;
 }
 
+img.logoredes {
+    width: 5%;
+}
+
 footer {
     display: grid;
     background-color: rgb(80, 80, 80);

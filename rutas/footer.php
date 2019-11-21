@@ -10,9 +10,9 @@
         </div>
         <div class="col-12 col-sm-6 py-5">
             <ul>
-                <li>Facebook</li>
-                <li>Instagram</li>
-                <li>Whatsapp</li>
+                <li> <a href=""> <img class="logoredes" src="img/logoface.png" alt="facebook"></a> </li>
+                <li> <a href=""> <img class="logoredes" src="img/logoinstagram.png" alt="facebook"></a> </li>
+                <li> <a href=""> <img class="logoredes" src="img/logotwitter.png" alt="facebook"></a> </li>
             </ul>
         </div>
     </div>
