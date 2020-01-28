@@ -101,6 +101,37 @@ iframe {
     div#carouselportada {
         height: 85vh;
     }
+    div#portada {
+        margin: 0 auto;
+        text-align: center;
+        background-image: url(../img/portada.jpg);
+        /* Set a specific height */
+        min-height: 100vh; 
+        
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .logo {
+        width: 45%;
+        line-height:50%;
+    }
+    .content {
+        padding: 16px;
+      }
+      
+      .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+      
+      .sticky + .content {
+        padding-top: 60px;
+    }
 
     a#logo {
         width: 40%;
@@ -111,7 +142,7 @@ iframe {
     }
 
     nav#barraMenu {
-        background-color: rgba(255, 255, 255, 0.8);
+        background-color: rgba(255, 255, 255, 0.0);
     }
 
     div#faqs {
