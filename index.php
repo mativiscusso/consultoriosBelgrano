@@ -11,8 +11,25 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link href="css/belgrano.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    
+    
 
-    <title>Consultorios Belgrano</title>
+<!-- Start of Async Callbell Code -->
+<script>
+  window.callbellSettings = {
+    token: "3vrVM65RkWBUgMNNdxG3mSvF"
+  };
+</script>
+<script>
+  (function(){var w=window;var ic=w.callbell;if(typeof ic==="function"){ic('reattach_activator');ic('update',callbellSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Callbell=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://dash.callbell.eu/include/'+window.callbellSettings.token+'.js';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()
+</script>
+<!-- End of Async Callbell Code -->
+
+
+
+
+
+    <title>Consultorio Belgrano</title>
 </head>
 
 <body>
@@ -63,38 +80,11 @@
 			<li><a href="mailto:contacto@falconmasters.com" class="icon-mail"></a></li>
 		</ul>
 	</div>
-
-        <!-- <div id="carousel" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div id="carouselportada" class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="img/bc.png" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="img/bc.png" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="img/bc.png" class="d-block w-100" alt="...">
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div> -->
         <div class="row">
             <div class="col-12 col-sm-6">
             <div id="portada" class="container-fluid">
             <div>
-            
+            <h2>KINESIOLOGIA</h2>
             </div>
             </div>
             </div>
