@@ -292,5 +292,12 @@ iframe {
             background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
             padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
         }
+        #gif {
+            width: 50%;
+            height: 50vh;
+        }
+        div.card.mb-3 {
+            border: none;
+        }
     
 }

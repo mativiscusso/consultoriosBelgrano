@@ -17,9 +17,10 @@
 
 <body>
 
+
     <header>
         <nav id="barraMenu" class="navbar navbar-expand-lg navbar-light">
-            <a id="logo" class="navbar-brand" href="index.php"></a>
+            <a id="logo" class="navbar-brand" href="index.php"><img class="logo"src="img/logoBC.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -93,9 +94,7 @@
             <div class="col-12 col-sm-6">
             <div id="portada" class="container-fluid">
             <div>
-            <!-- <img class="logo"src="img/logoBC.png" alt=""> -->
-            <h1>BELGRANO</h1>
-            <h1>CONSULTORIOS</h1>
+            
             </div>
             </div>
             </div>
@@ -103,8 +102,7 @@
             <div id="portada" class="container-fluid">
             <div>
             <!-- <img class="logo"src="img/logoBC.png" alt=""> -->
-            <h1>BELGRANO</h1>
-            <h1>CONSULTORIOS</h1>
+            <h2>ESTETICA</h2>
             </div>
             </div>
             </div>
@@ -194,12 +192,11 @@
         </div>
         <div class="container py-5">
             <div class="row">
-                <div class="col-12 col-sm-6 py-5">
+                <div class="col-12">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.4103870886033!2d-60.71751338525432!3d-32.940172878889605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b6532c9d4f92e3%3A0x7bd635baee85c183!2sNuevos%20Consultorios%20Belgrano!5e0!3m2!1ses!2sar!4v1574174788651!5m2!1ses!2sar" width="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                 </div>
             </div>
         </div>
-
 
         <?php
         require_once('rutas/footer.php');
