@@ -16,7 +16,7 @@
 </head>
 
 <body>
-<div id="portada" class="container-fluid">
+
     <header>
         <nav id="barraMenu" class="navbar navbar-expand-lg navbar-light">
             <a id="logo" class="navbar-brand" href="index.php"></a>
@@ -81,13 +81,27 @@
                 <span class="sr-only">Next</span>
             </a>
         </div> -->
-        
-        <div>
-        <!-- <img class="logo"src="img/logoBC.png" alt=""> -->
-<!--         <h1>BELGRANO</h1>
-        <h1>CONSULTORIOS</h1> -->
+        <div class="row">
+            <div class="col-12 col-sm-6">
+            <div id="portada" class="container-fluid">
+            <div>
+            <!-- <img class="logo"src="img/logoBC.png" alt=""> -->
+            <h1>BELGRANO</h1>
+            <h1>CONSULTORIOS</h1>
+            </div>
+            </div>
+            </div>
+            <div class="col-12 col-sm-6">
+            <div id="portada" class="container-fluid">
+            <div>
+            <!-- <img class="logo"src="img/logoBC.png" alt=""> -->
+            <h1>BELGRANO</h1>
+            <h1>CONSULTORIOS</h1>
+            </div>
+            </div>
+            </div>
         </div>
-        </div>
+
 
         <div class="container py-5">
             <h1>JORNADAS DEL MES</h1>

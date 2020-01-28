@@ -13,6 +13,20 @@ nav#barraMenu {
     background-color: rgba(255, 255, 255, 1);
     
 }
+div#portada {
+    margin: 5%;
+    text-align: center;
+    background-image: url(../img/portada.jpg);
+    /* Set a specific height */
+    min-height: 100vh; 
+    
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 div#listaMedica {
     margin: 15% 0 15% 0;
 }
