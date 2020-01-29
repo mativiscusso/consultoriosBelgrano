@@ -11,7 +11,7 @@ body {
     /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
     left: 0;
     /* Establecemos la barra en la izquierda */
-    top: 200px;
+    top: 50%;
     /* Bajamos la barra 200px de arriba a abajo */
     z-index: 2000;
     /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
@@ -42,15 +42,15 @@ body {
     background: #00abf0;
 }
 
-.social ul li .icon-googleplus {
-    background: #d95232;
+.social ul li .icon-instagram {
+    background: #E1306C;
 }
 
 .social ul li .icon-pinterest {
     background: #ae181f;
 }
 
-.social ul li .icon-mail {
+.social ul li .icon-mail2 {
     background: #666666;
 }
 
@@ -66,7 +66,7 @@ body {
     /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
     left: 0;
     /* Establecemos la barra en la izquierda */
-    top: 200px;
+    top: 75%;
     /* Bajamos la barra 200px de arriba a abajo */
     z-index: 2000;
     /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
@@ -74,6 +74,7 @@ body {
 
 .social ul {
     list-style: none;
+    padding: 0;
 }
 
 .social ul li a {
@@ -138,6 +139,8 @@ div#portada {
 
 .tituloIndex {
     font-weight: bold;
+        font-size: 2.5rem;
+        text-shadow: 5px 5px 2px white;
 }
 
 div#listaMedica {
@@ -157,7 +160,7 @@ a#logo {
 }
 
 a#logo img {
-    width: 60%;
+    width: 80%;
 }
 
 div#carousel {
@@ -454,7 +457,6 @@ iframe {
 
     .tituloIndex {
         font-size: 4rem;
-        text-shadow: 5px 5px 2px white;
     }
     img.card-img {
         height: 100%;
