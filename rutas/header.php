@@ -12,6 +12,7 @@
     <script src="https://kit.fontawesome.com/8de40d40f6.js" crossorigin="anonymous"></script>
     <link href="../css/belgrano.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 
     <title>Consultorios Belgrano</title>
 </head>
@@ -37,6 +38,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="espmedicas.php">ESPECIALIDADES MEDICAS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="rutas/obrasociales.php">PROMOCIONES</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="faqs.php">FAQs</a>

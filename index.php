@@ -10,9 +10,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link href="css/belgrano.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     
-    
+
 
 <!-- Start of Async Callbell Code -->
 <script>
@@ -24,6 +26,7 @@
   (function(){var w=window;var ic=w.callbell;if(typeof ic==="function"){ic('reattach_activator');ic('update',callbellSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Callbell=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://dash.callbell.eu/include/'+window.callbellSettings.token+'.js';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()
 </script>
 <!-- End of Async Callbell Code -->
+
 
 
 
@@ -57,6 +60,9 @@
                         <a class="nav-link" href="rutas/espmedicas.php">ESPECIALIDADES MEDICAS</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="rutas/obrasociales.php">PROMOCIONES</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="rutas/faqs.php">FAQs</a>
                     </li>
                     <li class="nav-item">
@@ -72,29 +78,23 @@
 
     <body>
 	<div class="social">
-		<ul>
+		<ul id="redes">
 			<li><a href="http://www.facebook.com/falconmasters" target="_blank" class="icon-facebook"></a></li>
 			<li><a href="http://www.twitter.com/falconmasters" target="_blank" class="icon-twitter"></a></li>
-			<li><a href="http://www.googleplus.com/falconmasters" target="_blank" class="icon-googleplus"></a></li>
-			<li><a href="http://www.pinterest.com/falconmasters" target="_blank" class="icon-pinterest"></a></li>
-			<li><a href="mailto:contacto@falconmasters.com" class="icon-mail"></a></li>
+			<li><a href="http://www.googleplus.com/falconmasters" target="_blank" class="icon-instagram"></a></li>
+			<li><a href="mailto:contacto@falconmasters.com" class="icon-mail2"></a></li>
 		</ul>
 	</div>
-        <div class="row">
+        <div id="portadas" class="row">
             <div class="col-12 col-sm-6">
-            <div id="portada" class="container-fluid">
-            <div>
-            <h2>KINESIOLOGIA</h2>
-            </div>
-            </div>
+                <div id="portada" class="container-fluid animated bounceInLeft">
+                    <h2 class="tituloIndex">KINESIOLOGIA</h2>
+                </div>
             </div>
             <div class="col-12 col-sm-6">
-            <div id="portada" class="container-fluid">
-            <div>
-            <!-- <img class="logo"src="img/logoBC.png" alt=""> -->
-            <h2>ESTETICA</h2>
-            </div>
-            </div>
+                <div id="portada" class="container-fluid animated bounceInRight">
+                    <h2 class="tituloIndex">ESTETICA</h2>
+                </div>
             </div>
         </div>
 
