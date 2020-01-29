@@ -5,6 +5,10 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+#escritorio {
+    display: none;
+}
+
 
 .social {
     position: fixed;
@@ -126,15 +130,31 @@ nav#barraMenu {
 
 }
 
-div#portada {
-    margin: 5%;
-    height: 90vh;
-    text-align: center;
-    background-image: url(../img/portada.jpg);
+div#portada1 {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    background-image: url(../img/kinesio.jpeg);
+    /* Set a specific height */
+    min-height: 90vh;
+    /* Create the parallax scrolling effect */
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div#portada2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/estetica.jpeg);
+    /* Set a specific height */
+    min-height: 90vh;
+    /* Create the parallax scrolling effect */
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .tituloIndex {
@@ -160,7 +180,7 @@ a#logo {
 }
 
 a#logo img {
-    width: 80%;
+    width: 90%;
 }
 
 div#carousel {
@@ -216,7 +236,7 @@ img.logoredes {
 }
 
 footer {
-    display: grid;
+    width: 100%;
     background-color: rgb(80, 80, 80);
     color: white;
 }
@@ -232,12 +252,13 @@ iframe {
 }
 
 .grid-layout {
+    width: 90%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
     grid-gap: 10px;
     grid-auto-rows: minmax(180px, auto);
     grid-auto-flow: dense;
-    padding: 10px;
+    
 
 }
 
@@ -249,6 +270,9 @@ iframe {
     color: black;
     background-color: #00acf060;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .span-2 {
@@ -260,20 +284,53 @@ iframe {
     grid-column-end: span 3;
     grid-row-end: span 4;
 }
+#whatsapp {
+    position: fixed;
+    top: 90%;
+    left: 80%;
+}
+#whatsapp img {
+    transition:all 1s;
+    width: 75%;
+}
+#whatsapp img:hover {
+    transform: scale(1.25);
+}
+#whatsapp img:active {
+    transform: scale(0.80);
+}
 
 
 
 @media(min-width: 1000px) {
-    div#portada {
-        margin: 0 auto;
-        text-align: center;
-        background-image: url(../img/portada.jpg);
+    #escritorio {
+        display: initial;
+    }
+    #mobile {
+        display: none;
+    }
+    div#portada1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../img/kinesio.jpeg);
         /* Set a specific height */
-        min-height: 100vh;
-
-
+        min-height: 90vh;
         /* Create the parallax scrolling effect */
-        background-attachment: fixed;
+        /* background-attachment: fixed; */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    div#portada2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../img/estetica.jpeg);
+        /* Set a specific height */
+        min-height: 90vh;
+        /* Create the parallax scrolling effect */
+        /* background-attachment: fixed; */
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -460,6 +517,21 @@ iframe {
     }
     img.card-img {
         height: 100%;
+    }
+    #whatsapp {
+        position: fixed;
+        top: 90%;
+        left: 90%;
+    }
+    #whatsapp img {
+        transition:all 1s;
+        width: 35%;
+    }
+    #whatsapp img:hover {
+        transform: scale(1.25);
+    }
+    #whatsapp img:active {
+        transform: scale(0.80);
     }
 
 }

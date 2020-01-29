@@ -21,7 +21,8 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
+    <link rel="shortcut icon" href="img/logomini.png" type="image/x-icon">
+    
     <title>Consultorio Belgrano</title>
 </head>
 
@@ -51,7 +52,7 @@
                         <a class="nav-link" href="rutas/espmedicas.php">ESPECIALIDADES MEDICAS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="rutas/obrasociales.php">PROMOCIONES</a>
+                        <a class="nav-link" href="rutas/promociones.php">PROMOCIONES</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="rutas/faqs.php">FAQs</a>
@@ -76,12 +77,12 @@
         </div>
         <div id="portadas" class="row">
             <div class="col-12 col-sm-6">
-                <div id="portada" class="container-fluid wow animated bounceInLeft">
+                <div id="portada1" class="container-fluid wow animated bounceInLeft">
                     <h2 class="tituloIndex">KINESIOLOGIA</h2>
                 </div>
             </div>
             <div class="col-12 col-sm-6">
-                <div id="portada" class="container-fluid wow animated bounceInRight">
+                <div id="portada2" class="container-fluid wow animated bounceInRight">
                     <h2 class="tituloIndex">ESTETICA</h2>
                 </div>
             </div>
@@ -192,6 +193,8 @@
         <script>
             AOS.init();
         </script>
+
         <?php
+        require_once('whatsapp.php');
         require_once('rutas/footer.php');
         ?>
