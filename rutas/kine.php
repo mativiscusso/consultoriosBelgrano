@@ -1,7 +1,7 @@
 <?php
 require_once('header.php');
 ?>
-<div class="container-fluid my-5">
+<div class="container my-5">
     <div class="grid-layout">
         <div class="grid-item grid-item-1 animated fadeInRight"><h6>Rehabilitación Traumatológica</h6></div>
         <div class="grid-item grid-item-2 animated fadeInRight"><h5>Rehabilitación neurológica</h5></div>
