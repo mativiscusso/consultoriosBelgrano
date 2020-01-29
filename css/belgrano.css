@@ -286,12 +286,12 @@ iframe {
 }
 #whatsapp {
     position: fixed;
-    top: 90%;
+    top: 80%;
     left: 80%;
 }
 #whatsapp img {
     transition:all 1s;
-    width: 75%;
+    width: 65%;
 }
 #whatsapp img:hover {
     transform: scale(1.25);
@@ -310,6 +310,7 @@ iframe {
         display: none;
     }
     div#portada1 {
+        margin-top: 2%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -321,8 +322,10 @@ iframe {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        box-shadow: 5px 5px 5px grey;
     }
     div#portada2 {
+        margin-top: 2%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -334,6 +337,7 @@ iframe {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        box-shadow: 5px 5px 5px grey;
     }
 
     div#portadas {
@@ -398,7 +402,7 @@ iframe {
         /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
         left: 0;
         /* Establecemos la barra en la izquierda */
-        top: 50%;
+        top: 45%;
         /* Bajamos la barra 200px de arriba a abajo */
         z-index: 2000;
         /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */

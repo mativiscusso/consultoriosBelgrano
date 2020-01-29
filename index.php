@@ -28,8 +28,8 @@
 
 <body>
 
-    <header>
-        <nav id="barraMenu" class="navbar navbar-expand-lg navbar-light">
+    <header class="sticky-top">
+        <nav id="barraMenu" class="navbar navbar-expand-lg navbar-light bg-light">
             <a id="logo" class="navbar-brand" href="index.php"><img class="logo" src="img/logoBC.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
