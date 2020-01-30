@@ -236,9 +236,8 @@ require_once('header.php');
       </div>
     </div>
   </div>
-  </div>
-
-  <div id="mobile" class="container">
+  
+  <div id="mobile">
     <div id="criolipolisis" class="card mb-3 my-5">
       <div class="row no-gutters">
         <div class="col-12 col-md-4">
@@ -473,6 +472,7 @@ require_once('header.php');
       </div>
     </div>
   </div>
+</div>
 
 
 

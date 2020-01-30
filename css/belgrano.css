@@ -70,7 +70,7 @@ body {
     /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
     left: 0;
     /* Establecemos la barra en la izquierda */
-    top: 75%;
+    top: 65%;
     /* Bajamos la barra 200px de arriba a abajo */
     z-index: 2000;
     /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
@@ -286,7 +286,7 @@ iframe {
 }
 #whatsapp {
     position: fixed;
-    top: 80%;
+    top: 85%;
     left: 80%;
 }
 #whatsapp img {
@@ -525,7 +525,7 @@ iframe {
     #whatsapp {
         position: fixed;
         top: 90%;
-        left: 90%;
+        left: 93%;
     }
     #whatsapp img {
         transition:all 1s;
@@ -536,6 +536,10 @@ iframe {
     }
     #whatsapp img:active {
         transform: scale(0.80);
+    }
+    div#medicas {
+        display:flex;
+        align-items: center;
     }
 
 }

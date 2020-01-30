@@ -29,8 +29,8 @@ require_once('header.php');
                 <button class="btn btn-primary" type="submit">Submit form</button>
             </form>
         </div>
-        <div class="col-12 col-md-6 animated fadeIn">
-            <img src="../img/email.png" alt="">
+        <div class="col-12 col-md-6 animated fadeIn my-5">
+            <img src="../img/email.png" class="img-fluid" alt="Responsive image">
         </div>
     </div>
 </div>

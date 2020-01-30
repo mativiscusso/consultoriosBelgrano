@@ -13,15 +13,15 @@
     <link href="../css/belgrano.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-    <link rel="shortcut icon" href="img/logomini.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/logomini.png" type="image/x-icon">
 
     <title>Consultorios Belgrano</title>
 </head>
 
 <body>
     <header class="sticky-top">
-        <nav id="barraMenu" class="navbar navbar-expand-lg navbar-light sticky-top">
-            <a id="logo" class="navbar-brand" href="../index.php"><img src="../img/logoBC.png" alt=""></a>
+        <nav id="barraMenu" class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+            <a id="logo" class="navbar-brand animated pulse delay-1s" href="../index.php"><img src="../img/logoBC.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
