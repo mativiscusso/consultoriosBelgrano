@@ -69,10 +69,9 @@
     </header>
         <div class="social">
             <ul id="redes">
-                <li><a href="http://www.facebook.com/falconmasters" target="_blank" class="icon-facebook"></a></li>
-                <li><a href="http://www.twitter.com/falconmasters" target="_blank" class="icon-twitter"></a></li>
-                <li><a href="http://www.googleplus.com/falconmasters" target="_blank" class="icon-instagram"></a></li>
-                <li><a href="mailto:contacto@falconmasters.com" class="icon-mail2"></a></li>
+                <li><a href="http://www.facebook.com/nuevosconsultoriosbelgrano" target="_blank" class="icon-facebook"></a></li>
+                <li><a href="http://www.instagram.com/consultorios_belgrano" target="_blank" class="icon-instagram"></a></li>
+                <li><a href="mailto:info@consultoriobelgrano.com" class="icon-mail2"></a></li>
             </ul>
         </div>
         <div id="portadas" class="row">
