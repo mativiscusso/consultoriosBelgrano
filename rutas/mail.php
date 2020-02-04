@@ -5,7 +5,7 @@ $subject = "Mensaje Enviado";
 $contenido .= "Nombre: ".$_POST["nombre"]."\n";
 $contenido .= "Email: ".$_POST["email"]."\n\n";
 $contenido .= "Mensaje: ".$_POST["mensaje"]."\n\n";
-$header = "From: no-reply@c1701135.ferozo.com\nReply-To:".$_POST["email"]."\n";
+$header = "From: info@consultoriobelgrano.com\nReply-To:".$_POST["email"]."\n";
 $header .= "Mime-Version: 1.0\n";
 $header .= "Content-Type: text/plain";
 if(mail($to, $subject, $contenido ,$header)){
