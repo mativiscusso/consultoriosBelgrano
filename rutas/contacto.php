@@ -9,20 +9,20 @@ require_once('header.php');
             <form method="POST" action="mail.php">
                 <div class="form-group">
                     <label for="exampleFormControlInput1">Nombre </label>
-                    <input type="text" name="nombre" class="form-control" id="exampleFormControlInput1">
+                    <input type="text" name="nombre" class="form-control" id="exampleFormControlInput1" required>
                 </div>
                 <div class="form-group">
                     <label for="exampleFormControlInput1">Email</label>
-                    <input type="email" name="email" class="form-control" id="exampleFormControlInput1">
+                    <input type="email" name="email" class="form-control" id="exampleFormControlInput1" required>
                 </div>
                 <div class="form-group">
                     <label for="exampleFormControlInput1">Asunto</label>
                     <input type="text" name="subject" class="form-control" id="exampleFormControlInput1"
-                        placeholder="name@example.com">
+                        required>
                 </div>
                 <div class="form-group">
                     <label for="exampleFormControlTextarea1">Mensaje</label>
-                    <textarea class="form-control" name="mensaje" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <textarea class="form-control" name="mensaje" id="exampleFormControlTextarea1" rows="3" required></textarea>
                 </div>
                 <button class="btn btn-primary" type="submit">Enviar</button>
             </form>

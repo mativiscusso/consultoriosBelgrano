@@ -25,13 +25,9 @@
       $msjCorreo .= "\r\n";
 
     if (mail($para, $subject, $msjCorreo, $headers)) {
-         echo "<script language='javascript'>
-         swal('Mensaje enviado', 'success');
-         </script>";
+         echo "OK";
     } else {
-         echo "<script language='javascript'>
-         swal('Mensaje no enviado', 'error');
-         </script>";
+         echo "no ok";
     }
   }
 ?>
