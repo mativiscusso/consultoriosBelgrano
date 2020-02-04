@@ -21,7 +21,7 @@
 <body>
     <header class="sticky-top">
         <nav id="barraMenu" class="navbar navbar-expand-lg navbar-light sticky-top">
-            <a id="logo" class="navbar-brand animated pulse delay-1s" href="../index.php"><img src="../img/logoBC.png" alt=""></a>
+            <a id="logo" class="navbar-brand animated pulse delay-1s" href="../index2"><img src="../img/logoBC.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -33,24 +33,24 @@
                             SERVICIOS
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="kine.php">KINESIOLOGIA</a>
-                            <a class="dropdown-item" href="estetica.php">ESTETICA</a>
+                            <a class="dropdown-item" href="kine">KINESIOLOGIA</a>
+                            <a class="dropdown-item" href="estetica">ESTETICA</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="espmedicas.php">ESPECIALIDADES MEDICAS</a>
+                        <a class="nav-link" href="espmedicas">ESPECIALIDADES MEDICAS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="rutas/promociones.php">PROMOCIONES</a>
+                        <a class="nav-link" href="rutas/promociones">PROMOCIONES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="faqs.php">FAQs</a>
+                        <a class="nav-link" href="faqs">FAQs</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="obrasociales.php">OBRAS SOCIALES</a>
+                        <a class="nav-link" href="obrasociales">OBRAS SOCIALES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contacto.php">CONTACTO</a>
+                        <a class="nav-link" href="contacto">CONTACTO</a>
                     </li>
                 </ul>
             </div>

@@ -30,7 +30,7 @@
 
     <header class="sticky-top">
         <nav id="barraMenu" class="navbar navbar-expand-lg navbar-light shadow-sm p-3 mb-5 bg-white rounded">
-            <a id="logo" class="navbar-brand animated pulse delay-1s" href="index.php"><img class="logo" src="img/logoBC.png" alt=""></a>
+            <a id="logo" class="navbar-brand animated pulse delay-1s" href="index2"><img class="logo" src="img/logoBC.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -44,24 +44,24 @@
                             SERVICIOS
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="rutas/kine.php">KINESIOLOGIA</a>
-                            <a class="dropdown-item" href="rutas/estetica.php">ESTETICA</a>
+                            <a class="dropdown-item" href="rutas/kine">KINESIOLOGIA</a>
+                            <a class="dropdown-item" href="rutas/estetica">ESTETICA</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="rutas/espmedicas.php">ESPECIALIDADES MEDICAS</a>
+                        <a class="nav-link" href="rutas/espmedicas">ESPECIALIDADES MEDICAS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="rutas/promociones.php">PROMOCIONES</a>
+                        <a class="nav-link" href="rutas/promociones">PROMOCIONES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="rutas/faqs.php">FAQs</a>
+                        <a class="nav-link" href="rutas/faqs">FAQs</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="rutas/obrasociales.php">OBRAS SOCIALES</a>
+                        <a class="nav-link" href="rutas/obrasociales">OBRAS SOCIALES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="rutas/contacto.php">CONTACTO</a>
+                        <a class="nav-link" href="rutas/contacto">CONTACTO</a>
                     </li>
                 </ul>
             </div>

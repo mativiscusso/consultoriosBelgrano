@@ -546,5 +546,10 @@ iframe {
         display:flex;
         align-items: center;
     }
+    ul#ulFooter {
+        justify-content: space-around;
+        display: flex;
+        font-size: 0.9em;
+    }
 
 }

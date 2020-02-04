@@ -1,7 +1,7 @@
 <?php
 require_once('header.php');
 if(isset($_POST["nombre"]) && isset($_POST["email"]) && isset($_POST["mensaje"]) ){
-    $to = "mativiscusso@gmail.com";
+    $to = "info@consultoriobelgrano.com";
     $subject = "Mensaje Enviado";
     $contenido .= "Nombre: ".$_POST["nombre"]."\n";
     $contenido .= "Email: ".$_POST["email"]."\n\n";
@@ -23,7 +23,7 @@ if(isset($_POST["nombre"]) && isset($_POST["email"]) && isset($_POST["mensaje"])
     <h1>Contactenos</h1>
     <div class="row">
         <div class="col-12 col-md-6 animated fadeIn">
-            <form method="POST" action="contacto.php">
+            <form method="POST" action="contacto">
                 <div class="form-group">
                     <label for="exampleFormControlInput1">Nombre </label>
                     <input type="text" name="nombre" class="form-control" id="exampleFormControlInput1" required>
