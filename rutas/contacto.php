@@ -1,5 +1,19 @@
 <?php
 require_once('header.php');
+
+    ini_set( 'display_errors', 1 );
+    error_reporting( E_ALL );
+    $from = "test@hostinger-tutorials.com";
+    $to = "test@gmail.com";
+    $subject = "Checking PHP mail";
+    $message = "PHP mail works just fine";
+    $headers = "From:" . $from;
+    mail($to,$subject,$message, $headers);
+    echo  '<script language="javascript">
+                    window.onload = function() {
+                        swal("Mensaje Enviado", "success");;
+                    }
+                </script>';
 ?>
 
 <div class="container my-5">
