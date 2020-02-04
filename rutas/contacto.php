@@ -16,11 +16,6 @@ require_once('header.php');
                     <input type="email" name="email" class="form-control" id="exampleFormControlInput1" required>
                 </div>
                 <div class="form-group">
-                    <label for="exampleFormControlInput1">Asunto</label>
-                    <input type="text" name="subject" class="form-control" id="exampleFormControlInput1"
-                        required>
-                </div>
-                <div class="form-group">
                     <label for="exampleFormControlTextarea1">Mensaje</label>
                     <textarea class="form-control" name="mensaje" id="exampleFormControlTextarea1" rows="3" required></textarea>
                 </div>

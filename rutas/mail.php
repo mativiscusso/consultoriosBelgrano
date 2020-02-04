@@ -1,33 +1,15 @@
 <?php
-   //Reseteamos variables a 0.
-   $nombre = $email = $subject = $mensaje = $para = $headers = $msjCorreo = NULL;
-
-   if (isset($_POST['submit'])) {
-      //Obtenemos valores input formulario
-      $nombre = $_POST['nombre'];
-      $email = $_POST['email'];
-      $subject = $_POST['subject'];   
-      $mensaje = $_POST['mensaje'];
-      $para = 'mativiscusso@gmail.com';
-
-      //Creamos cabecera.
-      $headers = 'From' . " " . $email . "\r\n";
-      $headers .= "Content-type: text/html; charset=utf-8";
-
-      //Componemos cuerpo correo.
-      $msjCorreo = "Nombre: " . $nombre;
-      $msjCorreo .= "\r\n";
-      $msjCorreo .= "Email: " . $email;
-      $msjCorreo .= "\r\n";
-      $msjCorreo .= "Asunto: " . $subject;
-      $msjCorreo .= "\r\n";
-      $msjCorreo .= "Mensaje: " . $mensaje;
-      $msjCorreo .= "\r\n";
-
-    if (mail($para, $subject, $msjCorreo, $headers)) {
-         echo "OK";
-    } else {
-         echo "no ok";
-    }
-  }
+if(isset($_POST["nombre"]) && isset($_POST["email"]) && isset($_POST["mensaje"]) ){
+$to = "mativiscusso@gmail.com";
+$subject = "Mensaje Enviado";
+$contenido .= "Nombre: ".$_POST["nombre"]."\n";
+$contenido .= "Email: ".$_POST["email"]."\n\n";
+$contenido .= "Mensaje: ".$_POST["mensaje"]."\n\n";
+$header = "From: no-reply@c1701135.ferozo.com\nReply-To:".$_POST["email"]."\n";
+$header .= "Mime-Version: 1.0\n";
+$header .= "Content-Type: text/plain";
+if(mail($to, $subject, $contenido ,$header)){
+echo "Mail Enviado.";
+}
+}
 ?>
