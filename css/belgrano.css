@@ -75,7 +75,7 @@ body {
     /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
     left: 0;
     /* Establecemos la barra en la izquierda */
-    top: 65%;
+    top: 75%;
     /* Bajamos la barra 200px de arriba a abajo */
     z-index: 2000;
     /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
@@ -131,7 +131,7 @@ ul {
 }
 
 nav#barraMenu {
-    background-color: rgba(255, 255, 255, 1);
+    background-color: white;
 
 }
 
@@ -139,7 +139,7 @@ div#portada1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../img/kinesio.jpeg);
+    background-image: url(../img/kinesio.jpg);
     /* Set a specific height */
     min-height: 90vh;
     /* Create the parallax scrolling effect */
@@ -152,7 +152,7 @@ div#portada2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../img/estetica.jpeg);
+    background-image: url(../img/estetica.jpg);
     /* Set a specific height */
     min-height: 90vh;
     /* Create the parallax scrolling effect */
@@ -319,7 +319,7 @@ iframe {
         display: flex;
         justify-content: center;
         align-items: center;
-        background-image: url(../img/kinesio.jpeg);
+        background-image: url(../img/kinesio.jpg);
         /* Set a specific height */
         min-height: 90vh;
         /* Create the parallax scrolling effect */
@@ -327,14 +327,14 @@ iframe {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        box-shadow: 5px 5px 5px grey;
+        box-shadow: 5px 5px 10px grey;
     }
     div#portada2 {
         margin-top: 2%;
         display: flex;
         justify-content: center;
         align-items: center;
-        background-image: url(../img/estetica.jpeg);
+        background-image: url(../img/estetica.jpg);
         /* Set a specific height */
         min-height: 90vh;
         /* Create the parallax scrolling effect */
@@ -389,7 +389,7 @@ iframe {
     }
 
     nav#barraMenu {
-        background-color: rgba(255, 255, 255, 0.0);
+        background-color: white;
 
     }
 

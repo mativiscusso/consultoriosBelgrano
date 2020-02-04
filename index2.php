@@ -29,7 +29,7 @@
 <body>
 
     <header class="sticky-top">
-        <nav id="barraMenu" class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav id="barraMenu" class="navbar navbar-expand-lg navbar-light">
             <a id="logo" class="navbar-brand animated pulse delay-1s" href="index.php"><img class="logo" src="img/logoBC.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
