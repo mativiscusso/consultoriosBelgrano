@@ -29,7 +29,7 @@
 <body>
 
     <header class="sticky-top">
-        <nav id="barraMenu" class="navbar navbar-expand-lg navbar-light shadow-sm p-3 mb-5 bg-white rounded">
+        <nav id="barraMenu" class="navbar navbar-expand-lg navbar-light p-2 mb-3 bg-white rounded">
             <a id="logo" class="navbar-brand animated pulse delay-1s" href="index2"><img class="logo" src="img/logoBC.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -98,7 +98,7 @@
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank" class="btn btn-primary">Reservar turno</a>
                         </div>
                     </div>
                 </div>
@@ -109,7 +109,7 @@
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank" class="btn btn-primary">Reservar turno</a>
                         </div>
                     </div>
                 </div>
@@ -120,7 +120,7 @@
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank" class="btn btn-primary">Reservar turno</a>
                         </div>
                     </div>
                 </div>
@@ -131,7 +131,7 @@
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank" class="btn btn-primary">Reservar turno</a>
                         </div>
                     </div>
                 </div>
@@ -142,7 +142,7 @@
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank" class="btn btn-primary">Reservar turno</a>
                         </div>
                     </div>
                 </div>
@@ -153,7 +153,7 @@
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank" class="btn btn-primary">Reservar turno</a>
                         </div>
                     </div>
                 </div>

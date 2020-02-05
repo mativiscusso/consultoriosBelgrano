@@ -41,7 +41,7 @@
                         <a class="nav-link" href="espmedicas">ESPECIALIDADES MEDICAS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="rutas/promociones">PROMOCIONES</a>
+                        <a class="nav-link" href="promociones">PROMOCIONES</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="faqs">FAQs</a>

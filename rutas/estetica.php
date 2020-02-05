@@ -6,7 +6,7 @@ require_once('header.php');
 <div class="container my-5">
   <h1>ESTETICA</h1>
   <div id="escritorio">
-    <div id="criolipolisis" class="card mb-3 my-5">
+    <div id="criolipolisis" data-aos="zoom-in" class="card mb-3 my-5">
       <div class="row no-gutters">
         <div class="col-12 col-md-4">
           <img src="../img/depilacion.jpeg" class="card-img" alt="...">
@@ -30,7 +30,7 @@ require_once('header.php');
         </div>
       </div>
     </div>
-    <div id="definitiva" class="card mb-3 my-5">
+    <div id="definitiva" data-aos="zoom-in" class="card mb-3 my-5">
       <div class="row no-gutters">
         <div class="col-12 col-md-8">
           <div class="card-body py-0">
@@ -53,7 +53,7 @@ require_once('header.php');
         </div>
       </div>
     </div>
-    <div id="venus" class="card mb-3 my-5">
+    <div id="venus" data-aos="zoom-in" class="card mb-3 my-5">
       <div class="row no-gutters">
         <div class="col-12 col-md-4">
           <img src="../img/depilacion.jpeg" class="card-img" alt="...">
@@ -75,7 +75,7 @@ require_once('header.php');
         </div>
       </div>
     </div>
-    <div id="teslagen" class="card mb-3 my-5">
+    <div id="teslagen" data-aos="zoom-in" class="card mb-3 my-5">
       <div class="row no-gutters">
         <div class="col-12 col-md-8">
           <div class="card-body py-0">
@@ -99,7 +99,7 @@ require_once('header.php');
         </div>
       </div>
     </div>
-    <div id="bronceado" class="card mb-3 my-5">
+    <div id="bronceado" data-aos="zoom-in" class="card mb-3 my-5">
       <div class="row no-gutters">
         <div class="col-12 col-md-4">
           <img src="../img/depilacion.jpeg" class="card-img" alt="...">
@@ -116,7 +116,7 @@ require_once('header.php');
         </div>
       </div>
     </div>
-    <div id="baropodometria" class="card mb-3 my-5">
+    <div id="baropodometria" data-aos="zoom-in" class="card mb-3 my-5">
       <div class="row no-gutters">
         <div class="col-12 col-md-8">
           <div class="card-body py-0">
@@ -135,7 +135,7 @@ require_once('header.php');
       </div>
     </div>
 
-    <div id="drenaje" class="card mb-3 my-5">
+    <div id="drenaje" data-aos="zoom-in" class="card mb-3 my-5">
       <div class="row no-gutters">
         <div class="col-12 col-md-4">
           <img src="../img/depilacion.jpeg" class="card-img" alt="...">
@@ -163,7 +163,7 @@ require_once('header.php');
       </div>
     </div>
 
-    <div id="presoterapia" class="card mb-3 my-5">
+    <div id="presoterapia" data-aos="zoom-in" class="card mb-3 my-5">
       <div class="row no-gutters">
         <div class="col-12 col-md-8">
           <div class="card-body py-0">
@@ -191,7 +191,7 @@ require_once('header.php');
       </div>
     </div>
 
-    <div id="ultracavitacion" class="card mb-3 my-5">
+    <div id="ultracavitacion" data-aos="zoom-in" class="card mb-3 my-5">
       <div class="row no-gutters">
         <div class="col-12 col-md-4">
           <img src="../img/depilacion.jpeg" class="card-img" alt="...">
@@ -218,7 +218,7 @@ require_once('header.php');
         </div>
       </div>
     </div>
-    <div id="lifting" class="card mb-3 my-5">
+    <div id="lifting" data-aos="zoom-in" class="card mb-3 my-5">
       <div class="row no-gutters">
         <div class="col-12 col-md-8">
           <div class="card-body py-0">

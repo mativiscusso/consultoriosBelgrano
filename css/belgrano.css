@@ -141,7 +141,7 @@ div#portada1 {
     align-items: center;
     background-image: url(../img/kinesio.jpg);
     /* Set a specific height */
-    min-height: 90vh;
+    min-height: 45vh;
     /* Create the parallax scrolling effect */
     /* background-attachment: fixed; */
     background-position: center;
@@ -149,12 +149,13 @@ div#portada1 {
     background-size: cover;
 }
 div#portada2 {
+    margin-top: 1%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: url(../img/estetica.jpg);
     /* Set a specific height */
-    min-height: 90vh;
+    min-height: 45vh;
     /* Create the parallax scrolling effect */
     /* background-attachment: fixed; */
     background-position: center;
@@ -163,9 +164,10 @@ div#portada2 {
 }
 
 .tituloIndex {
+    color: white;
     font-weight: bold;
-        font-size: 2.5rem;
-        text-shadow: 2px 2px 2px white;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 2px black;
 }
 
 div#listaMedica {
@@ -315,34 +317,32 @@ iframe {
         display: none;
     }
     div#portada1 {
-        margin-top: 2%;
         display: flex;
         justify-content: center;
-        align-items: center;
         background-image: url(../img/kinesio.jpg);
         /* Set a specific height */
-        min-height: 75vh;
+        min-height: 80vh;
         /* Create the parallax scrolling effect */
         /* background-attachment: fixed; */
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         border-radius: 1rem;
+        box-shadow: 2px 2px 5px gray;
     }
     div#portada2 {
-        margin-top: 2%;
         display: flex;
         justify-content: center;
-        align-items: center;
         background-image: url(../img/estetica.jpg);
         /* Set a specific height */
-        min-height: 75vh;
+        min-height: 80vh;
         /* Create the parallax scrolling effect */
         /* background-attachment: fixed; */
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         border-radius: 1rem;
+        box-shadow: 2px 2px 5px gray;
     }
 
     div#portadas {
