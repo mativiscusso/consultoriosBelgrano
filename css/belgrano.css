@@ -217,11 +217,12 @@ div#quienes {
     background-color: rgba(0, 100, 150, 0.5);
 }
 
-div#quienes img {
-    border-radius: 50%;
+iframe#virtual {
+    width: 100%;
+    height: 50vh;
 }
 
-div iframe {
+iframe#mapa{
     height: 40vh;
 }
 

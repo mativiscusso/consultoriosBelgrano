@@ -161,29 +161,12 @@
         </div>
 
 
-        <div id="quienes" class="container-fluid py-5 px-5">
-        <h1>¿QUIENES SOMOS?</h1>
-            <div class="row" data-aos="flip-left">
-            
-                <div id="quienesleft" class="col-12 col-md-4">
-                    <img src="https://picsum.photos/300/300?random=5" alt="">
-                </div>
-                <div id="quienesright"  class="col-12 col-md-8 py-4">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ea nam, libero sint numquam vel
-                        nesciunt nulla tenetur optio iure omnis quo ut temporibus consequatur atque aperiam suscipit?
-                        Autem laborum animi, voluptatibus incidunt quibusdam
-                        vel cum? Corporis necessitatibus voluptatem debitis? Obcaecati nostrum repellendus modi quos,
-                        architecto provident laboriosam ad hic assumenda corrupti officia quae consequatur odio qui
-                        exercitationem nisi magni ullam ducimus! Ab facere
-                        et delectus mollitia totam quod incidunt maiores eaque reiciendis aspernatur cum odit libero,
-                        temporibus culpa officiis corporis qui id similique cupiditate dicta aut dolores magnam. Ut ea
-                        vel vitae debitis repudiandae dolores quis
-                        facere architecto rem.</p>
-                </div>
-            </div>
+        <div class="container">
+            <iframe id="virtual" src="https://www.spinattic.com/38028/nuevobelgrano?full" frameborder="0" allowfullscreen></iframe>
         </div>
+
         <div class="container py-5">
-                    <iframe data-aos="fade-in"
+                    <iframe id="mapa" data-aos="fade-in"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.4103870886033!2d-60.71751338525432!3d-32.940172878889605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b6532c9d4f92e3%3A0x7bd635baee85c183!2sNuevos%20Consultorios%20Belgrano!5e0!3m2!1ses!2sar!4v1574174788651!5m2!1ses!2sar"
                         width="100%" frameborder="0" style="border:0;" allowfullscreen="">
                     </iframe>
