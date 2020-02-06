@@ -159,7 +159,7 @@
                 </div>
             </div>
         </div>
-        <div id="virtualContenedor"class="container text-center py-5" data-aos="flip-up">
+        <div id="virtualContenedor"class="container text-center py-5" >
         <h1>EXPERIENCIA</h1>
         <img id="img360"src="img/360.png" alt="" class="img-fluid"><br>
             <!-- Large modal -->
