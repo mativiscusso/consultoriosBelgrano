@@ -67,7 +67,7 @@
             </div>
         </nav>
     </header>
-        <div class="social">
+        <div data-aos="fade-right" class="social">
             <ul id="redes">
                 <li><a href="http://www.facebook.com/nuevosconsultoriosbelgrano" target="_blank" class="icon-facebook"></a></li>
                 <li><a href="http://www.instagram.com/consultorios_belgrano" target="_blank" class="icon-instagram"></a></li>
@@ -93,7 +93,7 @@
             <div class="row">
                 <div data-aos="zoom-in" class="col-12 col-sm-6 col-md-4 py-2">
                     <div id="jornadas" class="card text-center">
-                        <img src="https://picsum.photos/200/200?random=3" class="card-img-top" alt="...">
+                        <img src="img/depilacion.jpeg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -104,7 +104,7 @@
                 </div>
                 <div data-aos="zoom-in" class="col-12 col-sm-6 col-md-4 py-2">
                     <div id="jornadas" class="card text-center">
-                        <img src="https://picsum.photos/200/200?random=4" class="card-img-top" alt="...">
+                        <img src="img/depilacion.jpeg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -115,7 +115,7 @@
                 </div>
                 <div data-aos="zoom-in" class="col-12 col-sm-6 col-md-4 py-2">
                     <div id="jornadas" class="card text-center">
-                        <img src="https://picsum.photos/200/200?random=35" class="card-img-top" alt="...">
+                        <img src="img/depilacion.jpeg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -126,7 +126,7 @@
                 </div>
                 <div data-aos="zoom-in" class="col-12 col-sm-6 col-md-4 py-2">
                     <div id="jornadas" class="card text-center">
-                        <img src="https://picsum.photos/200/200?random=5" class="card-img-top" alt="...">
+                        <img src="img/depilacion.jpeg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -137,7 +137,7 @@
                 </div>
                 <div data-aos="zoom-in" class="col-12 col-sm-6 col-md-4 py-2">
                     <div id="jornadas" class="card text-center">
-                        <img src="https://picsum.photos/200/200?random=5" class="card-img-top" alt="...">
+                        <img src="img/depilacion.jpeg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -148,7 +148,7 @@
                 </div>
                 <div data-aos="zoom-in" class="col-12 col-sm-6 col-md-4 py-2">
                     <div id="jornadas" class="card text-center">
-                        <img src="https://picsum.photos/200/200?random=5" class="card-img-top" alt="...">
+                        <img src="img/depilacion.jpeg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -159,12 +159,28 @@
                 </div>
             </div>
         </div>
+        <div id="virtualContenedor"class="container text-center py-5" data-aos="flip-up">
+        <h1>EXPERIENCIA</h1>
+        <img id="img360"src="img/360.png" alt="" class="img-fluid"><br>
+            <!-- Large modal -->
+            <button type="button" class="btn btn-outline-info my-3" data-toggle="modal" data-target=".bd-example-modal-lg">VER</button>
 
+            <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                    <button type="button" class="close text-right" data-dismiss="modal" aria-label="Close">
+                         <span aria-hidden="true">&times;</span>
+                    </button>
+                        <div class="container-fluid">
+                            <iframe id="virtual" src="https://www.spinattic.com/38028/nuevobelgrano?full" frameborder="0"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
 
-        <div class="container-fluid">
-            <iframe id="virtual" src="https://www.spinattic.com/38028/nuevobelgrano?full" frameborder="0" allowfullscreen></iframe>
+            </div>
         </div>
-
         <div class="container py-5">
                     <iframe id="mapa" data-aos="fade-in"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.4103870886033!2d-60.71751338525432!3d-32.940172878889605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b6532c9d4f92e3%3A0x7bd635baee85c183!2sNuevos%20Consultorios%20Belgrano!5e0!3m2!1ses!2sar!4v1574174788651!5m2!1ses!2sar"

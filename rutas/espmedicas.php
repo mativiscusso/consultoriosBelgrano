@@ -6,6 +6,20 @@ require_once('header.php');
 
   <h1>ESPECIALIDADES MEDICAS</h1>
   <div id="escritorio">
+  <div id="psicologia" class="card mb-3 my-5">
+      <div id="medicas" class="row no-gutters">
+        <div class="col-12 col-md-8">
+          <div class="card-body py-0">
+            <p class="card-title"><b>PSICOLOGIA</b></p>
+            <p class="card-text">Ps. Ludmila Sandoval / Ps. Melina Garcia Shuster / Ps.Ludmila Pizzo
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <img src="../img/medica.png" class="card-img" alt="...">
+        </div>
+      </div>
+    </div>
     <div id="dermatologia" class="card mb-3 my-5">
       <div id="medicas" class="row no-gutters">
         <div class="col-12 col-md-4">
@@ -29,7 +43,7 @@ require_once('header.php');
           </div>
         </div>
         <div class="col-12 col-md-4">
-          <img src="../img/medica.png" class="card-img" alt="...">
+          <img src="../img/cordero.jpg" class="card-img" alt="...">
         </div>
       </div>
     </div>
@@ -86,7 +100,7 @@ require_once('header.php');
           </div>
         </div>
         <div class="col-12 col-md-4">
-          <img src="../img/medica.png" class="card-img" alt="...">
+          <img src="../img/vodas.jpg" class="card-img" alt="...">
         </div>
       </div>
     </div>
@@ -94,7 +108,7 @@ require_once('header.php');
     <div id="fonoaudologia" class="card mb-3 my-5">
       <div id="medicas" class="row no-gutters">
         <div class="col-12 col-md-4">
-          <img src="../img/medica.png" class="card-img" alt="...">
+          <img src="../img/silva.jpg" class="card-img" alt="...">
         </div>
         <div class="col-12 col-md-8">
           <div class="card-body py-0">
@@ -116,7 +130,7 @@ require_once('header.php');
           </div>
         </div>
         <div class="col-12 col-md-4">
-          <img src="../img/medica.png" class="card-img" alt="...">
+          <img src="../img/dobler.jpg" class="card-img" alt="...">
         </div>
       </div>
     </div>
@@ -124,7 +138,7 @@ require_once('header.php');
     <div id="nutricion" class="card mb-3 my-5">
       <div id="medicas" class="row no-gutters">
         <div class="col-12 col-md-4">
-          <img src="../img/medica.png" class="card-img" alt="...">
+          <img src="../img/venier.jpg" class="card-img" alt="...">
         </div>
         <div class="col-12 col-md-8">
           <div class="card-body py-0">
@@ -132,20 +146,6 @@ require_once('header.php');
             <p class="card-text">Lic. Mariana Biasoli / Lic. Barbara Venier
             </p>
           </div>
-        </div>
-      </div>
-    </div>
-    <div id="psicologia" class="card mb-3 my-5">
-      <div id="medicas" class="row no-gutters">
-        <div class="col-12 col-md-8">
-          <div class="card-body py-0">
-            <p class="card-title"><b>PSICOLOGIA</b></p>
-            <p class="card-text">Ps. Ludmila Sandoval / Ps. Melina Garcia Shuster / Ps.Ludmila Pizzo
-            </p>
-          </div>
-        </div>
-        <div class="col-12 col-md-4">
-          <img src="../img/medica.png" class="card-img" alt="...">
         </div>
       </div>
     </div>
@@ -168,7 +168,7 @@ require_once('header.php');
     <div id="ocupacional" class="card mb-3 my-5">
       <div id="medicas" class="row no-gutters">
         <div class="col-12 col-md-4">
-          <img src="../img/medica.png" class="card-img" alt="...">
+          <img src="../img/ramirez.jpg" class="card-img" alt="...">
         </div>
         <div class="col-12 col-md-8">
           <div class="card-body py-0">
@@ -176,6 +176,20 @@ require_once('header.php');
             <p class="card-text">Lic. Luciana Ramirez
             </p>
           </div>
+        </div>
+      </div>
+    </div>
+    <div id="unias" class="card mb-3 my-5">
+      <div id="medicas" class="row no-gutters">
+        <div class="col-12 col-md-8">
+          <div class="card-body py-0">
+            <p class="card-title"><b>UÑAS Y SEMIPERMANENTES</b></p>
+            <p class="card-text">Aldana Martino
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <img src="../img/martino.jpg" class="card-img" alt="...">
         </div>
       </div>
     </div>
@@ -199,7 +213,7 @@ require_once('header.php');
     <div id="flebologia" class="card mb-3 my-5">
       <div class="row no-gutters">
         <div class="col-12 col-md-4">
-          <img src="../img/medica.png" class="card-img" alt="...">
+          <img src="../img/cordero.jpg" class="card-img" alt="...">
         </div>
         <div class="col-12 col-md-8">
           <div class="card-body py-0">
@@ -254,7 +268,7 @@ require_once('header.php');
     <div id="fisiatra" class="card mb-3 my-5">
       <div class="row no-gutters">
         <div class="col-12 col-md-4">
-          <img src="../img/medica.png" class="card-img" alt="...">
+          <img src="../img/vodas.jpg" class="card-img" alt="...">
         </div>
         <div class="col-12 col-md-8">
           <div class="card-body py-0">
@@ -271,7 +285,7 @@ require_once('header.php');
     <div id="fonoaudologia" class="card mb-3 my-5">
       <div class="row no-gutters">
         <div class="col-12 col-md-4">
-          <img src="../img/medica.png" class="card-img" alt="...">
+          <img src="../img/silva.jpg" class="card-img" alt="...">
         </div>
         <div class="col-12 col-md-8">
           <div class="card-body py-0">
@@ -286,7 +300,7 @@ require_once('header.php');
     <div id="kinesio" class="card mb-3 my-5">
       <div class="row no-gutters">
         <div class="col-12 col-md-4">
-          <img src="../img/medica.png" class="card-img" alt="...">
+          <img src="../img/dobler.jpg" class="card-img" alt="...">
         </div>
         <div class="col-12 col-md-8">
           <div class="card-body py-0">
@@ -302,7 +316,7 @@ require_once('header.php');
     <div id="nutricion" class="card mb-3 my-5">
       <div class="row no-gutters">
         <div class="col-12 col-md-4">
-          <img src="../img/medica.png" class="card-img" alt="...">
+          <img src="../img/venier.jpg" class="card-img" alt="...">
         </div>
         <div class="col-12 col-md-8">
           <div class="card-body py-0">
@@ -313,21 +327,7 @@ require_once('header.php');
         </div>
       </div>
     </div>
-    <div id="psicologia" class="card mb-3 my-5">
-      <div class="row no-gutters">
-        <div class="col-12 col-md-4">
-          <img src="../img/medica.png" class="card-img" alt="...">
-        </div>
-        <div class="col-12 col-md-8">
-          <div class="card-body py-0">
-            <p class="card-title"><b>PSICOLOGIA</b></p>
-            <p class="card-text">Ps. Ludmila Sandoval / Ps. Melina Garcia Shuster / Ps.Ludmila Pizzo
-            </p>
-          </div>
-        </div>
 
-      </div>
-    </div>
 
     <div id="psicopedagogia" class="card mb-3 my-5">
       <div class="row no-gutters">
@@ -348,12 +348,26 @@ require_once('header.php');
     <div id="ocupacional" class="card mb-3 my-5">
       <div class="row no-gutters">
         <div class="col-12 col-md-4">
-          <img src="../img/medica.png" class="card-img" alt="...">
+          <img src="../img/ramirez.jpg" class="card-img" alt="...">
         </div>
         <div class="col-12 col-md-8">
           <div class="card-body py-0">
             <p class="card-title"><b>TERAPIA OCUPACIONAL</b></p>
             <p class="card-text">Lic. Luciana Ramirez
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="unias" class="card mb-3 my-5">
+      <div id="medicas" class="row no-gutters">
+      <div class="col-12 col-md-4">
+          <img src="../img/martino.jpg" class="card-img" alt="...">
+        </div>
+        <div class="col-12 col-md-8">
+          <div class="card-body py-0">
+            <p class="card-title"><b>UÑAS Y SEMIPERMANENTES</b></p>
+            <p class="card-text">Aldana Martino
             </p>
           </div>
         </div>
