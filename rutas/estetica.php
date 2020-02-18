@@ -26,6 +26,9 @@ require_once('header.php');
               Brazos, aductores, abdomen, flancos, espalda alta y baja, pantalón de montar zona subglutea
               siempre recomendamos una evaluación y asesoramiento previo al tratamiento
             </p>
+            <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank">
+              <button type="button" class="btn btn-danger">Reservar turno</button>
+            </a>
           </div>
         </div>
       </div>
@@ -258,6 +261,9 @@ require_once('header.php');
               Brazos, aductores, abdomen, flancos, espalda alta y baja, pantalón de montar zona subglutea
               siempre recomendamos una evaluación y asesoramiento previo al tratamiento
             </p>
+            <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank">
+              <button type="button" class="btn btn-danger">Reservar turno</button>
+            </a>
           </div>
         </div>
       </div>
