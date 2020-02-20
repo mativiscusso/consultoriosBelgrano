@@ -49,6 +49,9 @@ require_once('header.php');
               Luego se hace un refuerzo.
               Para realizar el tratamiento la piel puede estar bronceada, pero no enrojecida.
               Les ofrecemos una evaluación con nuestra médica dermatóloga antes de comenzar el tratamiento.</p>
+            <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank">
+              <button type="button" class="btn btn-danger">Reservar turno</button>
+            </a>
           </div>
         </div>
         <div class="col-12 col-md-4">
@@ -73,7 +76,9 @@ require_once('header.php');
               grasas, lo que tensa la piel flácida, alisa la celulitis y da al cuerpo un aspecto más estilizado,
               esculpido y tonificado.
             </p>
-
+            <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank">
+              <button type="button" class="btn btn-danger">Reservar turno</button>
+            </a>
           </div>
         </div>
       </div>
@@ -94,7 +99,9 @@ require_once('header.php');
               La magneto estimulación permite hacer estimulación muscular muy selectiva musculo por musculo,
               entonces varias de estas posibilidades nos da ventaja a hacer una más completa rehabilitación en
               tiempos más cortos con mayor eficacia.</p>
-
+            <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank">
+              <button type="button" class="btn btn-danger">Reservar turno</button>
+            </a>
           </div>
         </div>
         <div class="col-12 col-md-4">
@@ -115,108 +122,9 @@ require_once('header.php');
               En 15 minutos se realiza el tratamiento, perdura en la persona entre 7 y 10 días dependiendo el
               cuidado posterior y actividades que acostumbres a realizar.
               Recomendamos realizar el bronceado dos días antes del evento, para lograr el bronceado perfecto.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="baropodometria" data-aos="zoom-in" class="card mb-3 my-5">
-      <div class="row no-gutters">
-        <div class="col-12 col-md-8">
-          <div class="card-body py-0">
-            <p class="card-title"><b>Baropodometria</b></p>
-            <p class="card-text">El pie soporta todo el peso del cuerpo y debido a los múltiples movimientos a
-              los que tiene que adaptarse, está dotado de una estructura biomecánica compleja. Aun teniendo tal
-              estructura, la infinidad de solicitaciones a las que está sometido lo convierten en la parte del
-              cuerpo más susceptible de padecer lesiones.
-            </p>
-
-          </div>
-        </div>
-        <div class="col-12 col-md-4">
-          <img src="../img/depilacion.jpeg" class="card-img" alt="...">
-        </div>
-      </div>
-    </div>
-
-    <div id="drenaje" data-aos="zoom-in" class="card mb-3 my-5">
-      <div class="row no-gutters">
-        <div class="col-12 col-md-4">
-          <img src="../img/depilacion.jpeg" class="card-img" alt="...">
-        </div>
-        <div class="col-12 col-md-8">
-          <div class="card-body py-0">
-            <p class="card-title"><b>Drenaje Linfático manual</b></p>
-            <p class="card-text">Tratamiento dermatológico orientado a la reducción de tejido adiposo
-              localizado
-              Se aplica frío y succión leve en la zona a tratar, lo que produce una apoptosis (muerte del
-              tejido adiposo).
-              Se realiza una sesión mensual y como máximo 4/5 sesiones dependiendo del paciente y del pliegue
-              del tejido graso de la zona a tratar
-              El resultado se podrá apreciar a los 20/30 días de la aplicación, y puede repetirse al mes
-              siguiente.
-              Durante los 6 meses posteriores al tratamiento, no vuelve a depositarse tejido graso en la zona
-              tratada.
-              El costo varía de acuerdo a las zonas a tratar y la cantidad de aplicadores a utilizar.
-              Zonas a tratar
-              Brazos, aductores, abdomen, flancos, espalda alta y baja, pantalón de montar zona subglutea
-              siempre recomendamos una evaluación y asesoramiento previo al tratamiento
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div id="presoterapia" data-aos="zoom-in" class="card mb-3 my-5">
-      <div class="row no-gutters">
-        <div class="col-12 col-md-8">
-          <div class="card-body py-0">
-            <p class="card-title"><b>Presoterapia</b></p>
-            <p class="card-text">Tratamiento dermatológico orientado a la reducción de tejido adiposo
-              localizado
-              Se aplica frío y succión leve en la zona a tratar, lo que produce una apoptosis (muerte del
-              tejido adiposo).
-              Se realiza una sesión mensual y como máximo 4/5 sesiones dependiendo del paciente y del
-              pliegue del tejido graso de la zona a tratar
-              El resultado se podrá apreciar a los 20/30 días de la aplicación, y puede repetirse al mes
-              siguiente.
-              Durante los 6 meses posteriores al tratamiento, no vuelve a depositarse tejido graso en la
-              zona tratada.
-              El costo varía de acuerdo a las zonas a tratar y la cantidad de aplicadores a utilizar.
-              Zonas a tratar
-              Brazos, aductores, abdomen, flancos, espalda alta y baja, pantalón de montar zona subglutea
-              siempre recomendamos una evaluación y asesoramiento previo al tratamiento
-            </p>
-          </div>
-        </div>
-        <div class="col-12 col-md-4">
-          <img src="../img/depilacion.jpeg" class="card-img" alt="...">
-        </div>
-      </div>
-    </div>
-
-    <div id="ultracavitacion" data-aos="zoom-in" class="card mb-3 my-5">
-      <div class="row no-gutters">
-        <div class="col-12 col-md-4">
-          <img src="../img/depilacion.jpeg" class="card-img" alt="...">
-        </div>
-        <div class="col-12 col-md-8">
-          <div class="card-body py-0">
-            <p class="card-title"><b>Ultracavitación</b></p>
-            <p class="card-text">Tratamiento dermatológico orientado a la reducción de tejido adiposo
-              localizado
-              Se aplica frío y succión leve en la zona a tratar, lo que produce una apoptosis (muerte del
-              tejido adiposo).
-              Se realiza una sesión mensual y como máximo 4/5 sesiones dependiendo del paciente y del
-              pliegue del tejido graso de la zona a tratar
-              El resultado se podrá apreciar a los 20/30 días de la aplicación, y puede repetirse al mes
-              siguiente.
-              Durante los 6 meses posteriores al tratamiento, no vuelve a depositarse tejido graso en la
-              zona tratada.
-              El costo varía de acuerdo a las zonas a tratar y la cantidad de aplicadores a utilizar.
-              Zonas a tratar
-              Brazos, aductores, abdomen, flancos, espalda alta y baja, pantalón de montar zona subglutea
-              siempre recomendamos una evaluación y asesoramiento previo al tratamiento
-            </p>
+            <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank">
+              <button type="button" class="btn btn-danger">Reservar turno</button>
+            </a>
           </div>
         </div>
       </div>
@@ -231,15 +139,104 @@ require_once('header.php');
               compleja. Aun teniendo tal estructura, la infinidad de solicitaciones a las que está
               sometido lo convierten en la parte del cuerpo más susceptible de padecer lesiones.
             </p>
+            <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank">
+              <button type="button" class="btn btn-danger">Reservar turno</button>
+            </a>
           </div>
         </div>
         <div class="col-12 col-md-4">
           <img src="../img/depilacion.jpeg" class="card-img" alt="...">
         </div>
       </div>
+      <div id="drenaje" data-aos="zoom-in" class="card mb-3 my-5">
+        <div class="row no-gutters">
+          <div class="col-12 col-md-4">
+            <img src="../img/depilacion.jpeg" class="card-img" alt="...">
+          </div>
+          <div class="col-12 col-md-8">
+            <div class="card-body py-0">
+              <p class="card-title"><b>Drenaje Linfático manual</b></p>
+              <p class="card-text">Esta técnica realizada por KINESIOLOGAS, es no invasiva e indolora.
+                Consiste en una serie de movimientos suaves, rítmicos y repetitivos, destinados a facilitar la
+                circulación del líquido adyacente en los tejidos conectivos subcutáneos del cuerpo que en conjunto
+                forman parte del sistema linfático.
+                Se utiliza para mejorar la circulación, evitar retención de líquidos, mejorar el aspecto de la piel,
+                reabsorber el líquido del intersticio, alivia los dolores de piernas cansadas, contribuye a mejorar las
+                defensas del organismo, libera endorfinas.
+                Depende de cada paciente y de su patología de base la cantidad de sesiones a realizar.
+                Algunas obras sociales reconocen este tratamiento.
+              </p>
+              <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank">
+                <button type="button" class="btn btn-danger">Reservar turno</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="presoterapia" data-aos="zoom-in" class="card mb-3 my-5">
+        <div class="row no-gutters">
+          <div class="col-12 col-md-8">
+            <div class="card-body py-0">
+              <p class="card-title"><b>Presoterapia</b></p>
+              <p class="card-text">Tratamiento dermatológico orientado a la reducción de tejido adiposo
+                localizado
+                Se aplica frío y succión leve en la zona a tratar, lo que produce una apoptosis (muerte del
+                tejido adiposo).
+                Se realiza una sesión mensual y como máximo 4/5 sesiones dependiendo del paciente y del
+                pliegue del tejido graso de la zona a tratar
+                El resultado se podrá apreciar a los 20/30 días de la aplicación, y puede repetirse al mes
+                siguiente.
+                Durante los 6 meses posteriores al tratamiento, no vuelve a depositarse tejido graso en la
+                zona tratada.
+                El costo varía de acuerdo a las zonas a tratar y la cantidad de aplicadores a utilizar.
+                Zonas a tratar
+                Brazos, aductores, abdomen, flancos, espalda alta y baja, pantalón de montar zona subglutea
+                siempre recomendamos una evaluación y asesoramiento previo al tratamiento
+              </p>
+              <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank">
+                <button type="button" class="btn btn-danger">Reservar turno</button>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <img src="../img/depilacion.jpeg" class="card-img" alt="...">
+          </div>
+        </div>
+      </div>
+
+      <div id="ultracavitacion" data-aos="zoom-in" class="card mb-3 my-5">
+        <div class="row no-gutters">
+          <div class="col-12 col-md-4">
+            <img src="../img/depilacion.jpeg" class="card-img" alt="...">
+          </div>
+          <div class="col-12 col-md-8">
+            <div class="card-body py-0">
+              <p class="card-title"><b>Ultracavitación</b></p>
+              <p class="card-text">Tratamiento dermatológico orientado a la reducción de tejido adiposo
+                localizado
+                Se aplica frío y succión leve en la zona a tratar, lo que produce una apoptosis (muerte del
+                tejido adiposo).
+                Se realiza una sesión mensual y como máximo 4/5 sesiones dependiendo del paciente y del
+                pliegue del tejido graso de la zona a tratar
+                El resultado se podrá apreciar a los 20/30 días de la aplicación, y puede repetirse al mes
+                siguiente.
+                Durante los 6 meses posteriores al tratamiento, no vuelve a depositarse tejido graso en la
+                zona tratada.
+                El costo varía de acuerdo a las zonas a tratar y la cantidad de aplicadores a utilizar.
+                Zonas a tratar
+                Brazos, aductores, abdomen, flancos, espalda alta y baja, pantalón de montar zona subglutea
+                siempre recomendamos una evaluación y asesoramiento previo al tratamiento
+              </p>
+              <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank">
+                <button type="button" class="btn btn-danger">Reservar turno</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  
   <div id="mobile">
     <div id="criolipolisis" class="card mb-3 my-5">
       <div class="row no-gutters">
@@ -252,7 +249,8 @@ require_once('header.php');
             <p class="card-text">Tratamiento dermatológico orientado a la reducción de tejido adiposo localizado
               Se aplica frío y succión leve en la zona a tratar, lo que produce una apoptosis (muerte del tejido
               adiposo).
-              Se realiza una sesión mensual y como máximo 4/5 sesiones dependiendo del paciente y del pliegue del tejido
+              Se realiza una sesión mensual y como máximo 4/5 sesiones dependiendo del paciente y del pliegue del
+              tejido
               graso de la zona a tratar
               El resultado se podrá apreciar a los 20/30 días de la aplicación, y puede repetirse al mes siguiente.
               Durante los 6 meses posteriores al tratamiento, no vuelve a depositarse tejido graso en la zona tratada.
@@ -287,6 +285,9 @@ require_once('header.php');
               Luego se hace un refuerzo.
               Para realizar el tratamiento la piel puede estar bronceada, pero no enrojecida.
               Les ofrecemos una evaluación con nuestra médica dermatóloga antes de comenzar el tratamiento.</p>
+            <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank">
+              <button type="button" class="btn btn-danger">Reservar turno</button>
+            </a>
           </div>
         </div>
       </div>
@@ -308,7 +309,9 @@ require_once('header.php');
               grasas, lo que tensa la piel flácida, alisa la celulitis y da al cuerpo un aspecto más estilizado,
               esculpido y tonificado.
             </p>
-
+            <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank">
+              <button type="button" class="btn btn-danger">Reservar turno</button>
+            </a>
           </div>
         </div>
       </div>
@@ -332,7 +335,9 @@ require_once('header.php');
               La magneto estimulación permite hacer estimulación muscular muy selectiva musculo por musculo,
               entonces varias de estas posibilidades nos da ventaja a hacer una más completa rehabilitación en
               tiempos más cortos con mayor eficacia.</p>
-
+            <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank">
+              <button type="button" class="btn btn-danger">Reservar turno</button>
+            </a>
           </div>
         </div>
 
@@ -355,25 +360,6 @@ require_once('header.php');
         </div>
       </div>
     </div>
-    <div id="baropodometria" class="card mb-3 my-5">
-      <div class="row no-gutters">
-        <div class="col-12 col-md-4">
-          <img src="../img/depilacion.jpeg" class="card-img" alt="...">
-        </div>
-        <div class="col-12 col-md-8">
-          <div class="card-body py-0">
-            <p class="card-title"><b>Baropodometria</b></p>
-            <p class="card-text">El pie soporta todo el peso del cuerpo y debido a los múltiples movimientos a
-              los que tiene que adaptarse, está dotado de una estructura biomecánica compleja. Aun teniendo tal
-              estructura, la infinidad de solicitaciones a las que está sometido lo convierten en la parte del
-              cuerpo más susceptible de padecer lesiones.
-            </p>
-
-          </div>
-        </div>
-
-      </div>
-    </div>
 
     <div id="drenaje" class="card mb-3 my-5">
       <div class="row no-gutters">
@@ -383,21 +369,20 @@ require_once('header.php');
         <div class="col-12 col-md-8">
           <div class="card-body py-0">
             <p class="card-title"><b>Drenaje Linfático manual</b></p>
-            <p class="card-text">Tratamiento dermatológico orientado a la reducción de tejido adiposo
-              localizado
-              Se aplica frío y succión leve en la zona a tratar, lo que produce una apoptosis (muerte del
-              tejido adiposo).
-              Se realiza una sesión mensual y como máximo 4/5 sesiones dependiendo del paciente y del pliegue
-              del tejido graso de la zona a tratar
-              El resultado se podrá apreciar a los 20/30 días de la aplicación, y puede repetirse al mes
-              siguiente.
-              Durante los 6 meses posteriores al tratamiento, no vuelve a depositarse tejido graso en la zona
-              tratada.
-              El costo varía de acuerdo a las zonas a tratar y la cantidad de aplicadores a utilizar.
-              Zonas a tratar
-              Brazos, aductores, abdomen, flancos, espalda alta y baja, pantalón de montar zona subglutea
-              siempre recomendamos una evaluación y asesoramiento previo al tratamiento
+            <p class="card-text">Esta técnica realizada por KINESIOLOGAS, es no invasiva e indolora.
+              Consiste en una serie de movimientos suaves, rítmicos y repetitivos, destinados a facilitar la circulación
+              del líquido adyacente en los tejidos conectivos subcutáneos del cuerpo que en conjunto forman parte del
+              sistema linfático.
+              Se utiliza para mejorar la circulación, evitar retención de líquidos, mejorar el aspecto de la piel,
+              reabsorber el líquido del intersticio, alivia los dolores de piernas cansadas, contribuye a mejorar las
+              defensas del organismo, libera endorfinas.
+              Depende de cada paciente y de su patología de base la cantidad de sesiones a realizar.
+              Algunas obras sociales reconocen este tratamiento.
+
             </p>
+            <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank">
+              <button type="button" class="btn btn-danger">Reservar turno</button>
+            </a>
           </div>
         </div>
       </div>
@@ -426,6 +411,9 @@ require_once('header.php');
               Brazos, aductores, abdomen, flancos, espalda alta y baja, pantalón de montar zona subglutea
               siempre recomendamos una evaluación y asesoramiento previo al tratamiento
             </p>
+            <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank">
+              <button type="button" class="btn btn-danger">Reservar turno</button>
+            </a>
           </div>
         </div>
 
@@ -455,6 +443,9 @@ require_once('header.php');
               Brazos, aductores, abdomen, flancos, espalda alta y baja, pantalón de montar zona subglutea
               siempre recomendamos una evaluación y asesoramiento previo al tratamiento
             </p>
+            <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank">
+              <button type="button" class="btn btn-danger">Reservar turno</button>
+            </a>
           </div>
         </div>
       </div>
@@ -472,6 +463,9 @@ require_once('header.php');
               compleja. Aun teniendo tal estructura, la infinidad de solicitaciones a las que está
               sometido lo convierten en la parte del cuerpo más susceptible de padecer lesiones.
             </p>
+            <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank">
+              <button type="button" class="btn btn-danger">Reservar turno</button>
+            </a>
           </div>
         </div>
 

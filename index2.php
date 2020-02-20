@@ -39,7 +39,7 @@
             <div class="collapse navbar-collapse text-body" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             SERVICIOS
                         </a>
@@ -76,14 +76,18 @@
         </div>
         <div id="portadas" class="row">
             <div class="col-12 col-sm-6">
-                <div id="portada1" class="container-fluid wow animated bounceInLeft">
-                    <h2 class="tituloIndex">KINESIOLOGIA</h2>
-                </div>
+                <a class="linkPortada" href="rutas/kine">
+                    <div id="portada1" class="container-fluid wow animated bounceInLeft">
+                        <h2 class="tituloIndex">KINESIOLOGIA</h2>
+                    </div>
+                </a>
             </div>
             <div class="col-12 col-sm-6">
-                <div id="portada2" class="container-fluid wow animated bounceInRight">
-                    <h2 class="tituloIndex">ESTETICA</h2>
-                </div>
+                <a class="linkPortada" href="rutas/estetica">
+                    <div id="portada2" class="container-fluid wow animated bounceInRight">
+                        <h2 class="tituloIndex">ESTETICA</h2>
+                    </div>
+                </a>
             </div>
         </div>
 
