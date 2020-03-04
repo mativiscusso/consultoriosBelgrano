@@ -99,65 +99,59 @@
                     <div id="jornadas" class="card text-center">
                         <img src="img/depilacion.jpeg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                            <h5 class="card-title">14/03/2020</h5>
+                            <p class="card-text">DEPILACIÓN DEFINITIVA SOPRANO ICE PLATINUM</p>
                             <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank" class="btn btn-primary">Reservar turno</a>
                         </div>
                     </div>
                 </div>
                 <div data-aos="zoom-in" class="col-12 col-sm-6 col-md-4 py-2">
                     <div id="jornadas" class="card text-center">
-                        <img src="img/depilacion.jpeg" class="card-img-top" alt="...">
+                        <img src="img/crio.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                            <h5 class="card-title">26/03/2020</h5>
+                            <p class="card-text">CRIOLOPOLISIS</p>
                             <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank" class="btn btn-primary">Reservar turno</a>
                         </div>
                     </div>
                 </div>
                 <div data-aos="zoom-in" class="col-12 col-sm-6 col-md-4 py-2">
                     <div id="jornadas" class="card text-center">
-                        <img src="img/depilacion.jpeg" class="card-img-top" alt="...">
+                        <img src="img/venus.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                            <h5 class="card-title">TODOS LOS MARTES</h5>
+                            <p class="card-text">Venus Legacy</p>
                             <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank" class="btn btn-primary">Reservar turno</a>
                         </div>
                     </div>
                 </div>
                 <div data-aos="zoom-in" class="col-12 col-sm-6 col-md-4 py-2">
                     <div id="jornadas" class="card text-center">
-                        <img src="img/depilacion.jpeg" class="card-img-top" alt="...">
+                        <img src="img/teslagen.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                            <h5 class="card-title">TODOS LOS VIERNES</h5>
+                            <p class="card-text">Teslagen</p>
                             <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank" class="btn btn-primary">Reservar turno</a>
                         </div>
                     </div>
                 </div>
                 <div data-aos="zoom-in" class="col-12 col-sm-6 col-md-4 py-2">
                     <div id="jornadas" class="card text-center">
-                        <img src="img/depilacion.jpeg" class="card-img-top" alt="...">
+                        <img src="img/bronceado.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                            <h5 class="card-title">CONSULTAR FECHAS</h5>
+                            <p class="card-text">Bronceado Orgánico</p>
                             <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank" class="btn btn-primary">Reservar turno</a>
                         </div>
                     </div>
                 </div>
                 <div data-aos="zoom-in" class="col-12 col-sm-6 col-md-4 py-2">
                     <div id="jornadas" class="card text-center">
-                        <img src="img/depilacion.jpeg" class="card-img-top" alt="...">
+                        <img src="img/bronceado.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank" class="btn btn-primary">Reservar turno</a>
+                            <h5 class="card-title">OTROS</h5>
+                            <p class="card-text">SERVICIOS</p>
+                            <a href="rutas/estetica" target="_blank" class="btn btn-primary">Consulte aqui</a>
                         </div>
                     </div>
                 </div>
@@ -178,7 +172,7 @@
                     </button>
                         <div class="container-fluid">
                             <iframe id="virtual" src="https://www.spinattic.com/38028/nuevobelgrano?full" frameborder="0"
-                                allowfullscreen></iframe>
+                                autoplay="0"></iframe>
                         </div>
                     </div>
                 </div>

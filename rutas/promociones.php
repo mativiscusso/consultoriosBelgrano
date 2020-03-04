@@ -3,7 +3,7 @@ require_once('header.php');
 ?>
 
 <div class="container my-5">
-<h1>PROMOCIONES</h1>
+    <h1>PROMOCIONES</h1>
     <div class="row my-5">
         <div class="col-12 col-md-6">
             <div class="container-fluid animated rollIn">
@@ -15,6 +15,7 @@ require_once('header.php');
             <table class="table">
                 <tbody>
                     <tr>
+                        <h4>DEPILACION DEFINITIVA</h4>
                         <td class="align-middle">Axilas - $700</td>
                         <td>
                             <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank">
@@ -87,12 +88,15 @@ require_once('header.php');
                         </td>
                     </tr>
                     <tr>
-                        <td class="align-middle">1 Sesion - $500</td>
-                        <td>
-                            <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank">
-                                <button type="button" class="btn btn-info">QUIERO LA PROMO</button>
-                            </a>
-                        </td>
+                </tbody>
+                <tbody>
+                    <h4>CRIOLIPOLISIS</h4>
+                    <td class="align-middle">1 Sesion - $500</td>
+                    <td>
+                        <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank">
+                            <button type="button" class="btn btn-info">QUIERO LA PROMO</button>
+                        </a>
+                    </td>
                     </tr>
                     <tr>
                         <td class="align-middle">2 Sesiones - $850</td>
@@ -103,23 +107,27 @@ require_once('header.php');
                         </td>
                     </tr>
                     <tr>
-                        <td class="align-middle">2 Sesiones - $1800</td>
-                        <td>
-                            <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank">
-                                <button type="button" class="btn btn-info">QUIERO LA PROMO</button>
-                            </a>
-                        </td>
+                </tbody>
+                <tbody>
+                    <h4>TESLAGEN</h4>
+                    <td class="align-middle">2 Sesiones - $1800</td>
+                    <td>
+                        <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank">
+                            <button type="button" class="btn btn-info">QUIERO LA PROMO</button>
+                        </a>
+                    </td>
                     </tr>
-                    <tr>
+                </tbody>
+                <tr>
+                    <tbody>
+                        <h4>VENUS LEGACY</h4>
                         <td class="align-middle">1 Sesion - $1300</td>
                         <td>
                             <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank">
                                 <button type="button" class="btn btn-info">QUIERO LA PROMO</button>
                             </a>
                         </td>
-                    </tr>
-
-
+                </tr>
                 </tbody>
             </table>
         </div>

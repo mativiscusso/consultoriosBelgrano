@@ -6,7 +6,7 @@ require_once('header.php');
 
   <h1>ESPECIALIDADES MEDICAS</h1>
   <div id="escritorio">
-  <div id="psicologia" class="card mb-3 my-5">
+    <div id="psicologia" class="card mb-3 my-5">
       <div id="medicas" class="row no-gutters">
         <div class="col-12 col-md-8">
           <div class="card-body py-0">
@@ -16,7 +16,7 @@ require_once('header.php');
           </div>
         </div>
         <div class="col-12 col-md-4">
-          <img src="../img/medica.png" class="card-img" alt="...">
+          <img src="../img/psico.jpg" class="card-img" alt="...">
         </div>
       </div>
     </div>
@@ -130,7 +130,7 @@ require_once('header.php');
           </div>
         </div>
         <div class="col-12 col-md-4">
-          <img src="../img/dobler.jpg" class="card-img" alt="...">
+          <img src="../img/kinesiologos.jpg" class="card-img" alt="...">
         </div>
       </div>
     </div>
@@ -138,7 +138,7 @@ require_once('header.php');
     <div id="nutricion" class="card mb-3 my-5">
       <div id="medicas" class="row no-gutters">
         <div class="col-12 col-md-4">
-          <img src="../img/venier.jpg" class="card-img" alt="...">
+          <img src="../img/nutri.jpg" class="card-img" alt="...">
         </div>
         <div class="col-12 col-md-8">
           <div class="card-body py-0">
@@ -300,7 +300,7 @@ require_once('header.php');
     <div id="kinesio" class="card mb-3 my-5">
       <div class="row no-gutters">
         <div class="col-12 col-md-4">
-          <img src="../img/dobler.jpg" class="card-img" alt="...">
+          <img src="../img/kinesiologos.jpg" class="card-img" alt="...">
         </div>
         <div class="col-12 col-md-8">
           <div class="card-body py-0">
@@ -316,7 +316,7 @@ require_once('header.php');
     <div id="nutricion" class="card mb-3 my-5">
       <div class="row no-gutters">
         <div class="col-12 col-md-4">
-          <img src="../img/venier.jpg" class="card-img" alt="...">
+          <img src="../img/nutri.jpg" class="card-img" alt="...">
         </div>
         <div class="col-12 col-md-8">
           <div class="card-body py-0">
@@ -361,7 +361,7 @@ require_once('header.php');
     </div>
     <div id="unias" class="card mb-3 my-5">
       <div id="medicas" class="row no-gutters">
-      <div class="col-12 col-md-4">
+        <div class="col-12 col-md-4">
           <img src="../img/martino.jpg" class="card-img" alt="...">
         </div>
         <div class="col-12 col-md-8">
