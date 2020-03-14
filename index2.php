@@ -1,3 +1,9 @@
+<?php
+require_once('db/db.php');
+$db = obtenerBaseDeDatos();
+$jornadas = traerJornadas($db);
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -99,8 +105,8 @@
                     <div id="jornadas" class="card text-center">
                         <img src="img/depilacion.jpeg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">14/03/2020</h5>
-                            <p class="card-text">DEPILACIÓN DEFINITIVA SOPRANO ICE PLATINUM</p>
+                            <h5 class="card-title"><?=$jornadas[0]['descripcion']?></h5>
+                            <p class="card-text"><?=$jornadas[0]['fecha']?></p>
                             <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank" class="btn btn-primary">Reservar turno</a>
                         </div>
                     </div>
@@ -109,8 +115,8 @@
                     <div id="jornadas" class="card text-center">
                         <img src="img/crio.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">26/03/2020</h5>
-                            <p class="card-text">CRIOLOPOLISIS</p>
+                            <h5 class="card-title"><?=$jornadas[1]['descripcion']?></h5>
+                            <p class="card-text"><?=$jornadas[1]['fecha']?></p>
                             <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank" class="btn btn-primary">Reservar turno</a>
                         </div>
                     </div>
@@ -119,8 +125,8 @@
                     <div id="jornadas" class="card text-center">
                         <img src="img/venus.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">TODOS LOS MARTES</h5>
-                            <p class="card-text">Venus Legacy</p>
+                            <h5 class="card-title"><?=$jornadas[2]['descripcion']?></h5>
+                            <p class="card-text"><?=$jornadas[2]['fecha']?></p>
                             <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank" class="btn btn-primary">Reservar turno</a>
                         </div>
                     </div>
@@ -129,8 +135,8 @@
                     <div id="jornadas" class="card text-center">
                         <img src="img/teslagen.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">TODOS LOS VIERNES</h5>
-                            <p class="card-text">Teslagen</p>
+                            <h5 class="card-title"><?=$jornadas[3]['descripcion']?></h5>
+                            <p class="card-text"><?=$jornadas[3]['fecha']?></p>
                             <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank" class="btn btn-primary">Reservar turno</a>
                         </div>
                     </div>
@@ -139,8 +145,8 @@
                     <div id="jornadas" class="card text-center">
                         <img src="img/bronceado.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">CONSULTAR FECHAS</h5>
-                            <p class="card-text">Bronceado Orgánico</p>
+                            <h5 class="card-title"><?=$jornadas[4]['descripcion']?></h5>
+                            <p class="card-text"><?=$jornadas[4]['fecha']?></p>
                             <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank" class="btn btn-primary">Reservar turno</a>
                         </div>
                     </div>
@@ -149,8 +155,8 @@
                     <div id="jornadas" class="card text-center">
                         <img src="img/bronceado.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">OTROS</h5>
-                            <p class="card-text">SERVICIOS</p>
+                            <h5 class="card-title"><?=$jornadas[5]['descripcion']?></h5>
+                            <p class="card-text"><?=$jornadas[5]['fecha']?></p>
                             <a href="rutas/estetica" target="_blank" class="btn btn-primary">Consulte aqui</a>
                         </div>
                     </div>
@@ -171,7 +177,7 @@
                          <span aria-hidden="true">&times;</span>
                     </button>
                         <div class="container-fluid">
-                            <iframe id="virtual" src="https://www.spinattic.com/38028/nuevobelgrano?full" frameborder="0"
+                            <iframe id="virtual" src="https://www.spinattic.com/38028/nuevobelgrano?full&autoplay=false" frameborder="0"
                                 autoplay="0"></iframe>
                         </div>
                     </div>

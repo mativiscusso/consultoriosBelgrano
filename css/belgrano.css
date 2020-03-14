@@ -245,6 +245,7 @@ img.logoredes {
     width: 5%;
 }
 
+
 footer {
     width: 100%;
     background-color: rgb(80, 80, 80);
@@ -607,6 +608,9 @@ span#empresas {
         flex-direction: column;
         justify-content: space-around;
         height: 110vh;
+    }
+    td.align-middle {
+        width: 33%;
     }
     
 }
