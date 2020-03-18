@@ -7,11 +7,15 @@ $promos = traerPromos($db);
 ?>
 
 <div class="container my-5">
-    <h1>PROMOCIONES</h1>
     <div class="row my-5">
-        <div class="col-12">
+        <div id="promoMobile" class="container">
             <div class="container-fluid animated rollIn">
                 <img src="../img/promos.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div id="promoEscritorio" class="container w-50">
+            <div class="container-fluid animated bounceInLeft">
+                <img src="../img/promos2.png" alt="" class="img-fluid">
             </div>
         </div>
 
@@ -160,7 +164,11 @@ $promos = traerPromos($db);
     </div>
 </div>
 
-
+<div id="whatsapp" data-aos="fade-left">
+    <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank">
+    <img src="../img/whatsapp-logo-1.png" alt="">
+    </a>
+</div>
 
 
 

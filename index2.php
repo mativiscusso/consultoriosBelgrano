@@ -97,7 +97,6 @@ $jornadas = traerJornadas($db);
             </div>
         </div>
 
-
         <div class="container py-5">
             <h1>JORNADAS DEL MES</h1>
             <div class="row">
@@ -105,8 +104,8 @@ $jornadas = traerJornadas($db);
                     <div id="jornadas" class="card text-center">
                         <img src="img/depilacion.jpeg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title"><?=$jornadas[0]['descripcion']?></h5>
-                            <p class="card-text"><?=$jornadas[0]['fecha']?></p>
+                            <h5 class="card-title"><?=$jornadas[0]['fecha']?></h5>
+                            <p class="card-text" id="pcard"><?=$jornadas[0]['descripcion']?></p>
                             <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank" class="btn btn-primary">Reservar turno</a>
                         </div>
                     </div>
@@ -115,8 +114,8 @@ $jornadas = traerJornadas($db);
                     <div id="jornadas" class="card text-center">
                         <img src="img/crio.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title"><?=$jornadas[1]['descripcion']?></h5>
-                            <p class="card-text"><?=$jornadas[1]['fecha']?></p>
+                            <h5 class="card-title"><?=$jornadas[1]['fecha']?></h5>
+                            <p class="card-text" id="pcard"><?=$jornadas[1]['descripcion']?></p>
                             <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank" class="btn btn-primary">Reservar turno</a>
                         </div>
                     </div>
@@ -125,8 +124,8 @@ $jornadas = traerJornadas($db);
                     <div id="jornadas" class="card text-center">
                         <img src="img/venus.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title"><?=$jornadas[2]['descripcion']?></h5>
-                            <p class="card-text"><?=$jornadas[2]['fecha']?></p>
+                            <h5 class="card-title"><?=$jornadas[2]['fecha']?></h5>
+                            <p class="card-text" id="pcard"><?=$jornadas[2]['descripcion']?></p>
                             <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank" class="btn btn-primary">Reservar turno</a>
                         </div>
                     </div>
@@ -135,8 +134,8 @@ $jornadas = traerJornadas($db);
                     <div id="jornadas" class="card text-center">
                         <img src="img/teslagen.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title"><?=$jornadas[3]['descripcion']?></h5>
-                            <p class="card-text"><?=$jornadas[3]['fecha']?></p>
+                            <h5 class="card-title"><?=$jornadas[3]['fecha']?></h5>
+                            <p class="card-text" id="pcard"><?=$jornadas[3]['descripcion']?></p>
                             <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank" class="btn btn-primary">Reservar turno</a>
                         </div>
                     </div>
@@ -145,8 +144,8 @@ $jornadas = traerJornadas($db);
                     <div id="jornadas" class="card text-center">
                         <img src="img/bronceado.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title"><?=$jornadas[4]['descripcion']?></h5>
-                            <p class="card-text"><?=$jornadas[4]['fecha']?></p>
+                            <h5 class="card-title"><?=$jornadas[4]['fecha']?></h5>
+                            <p class="card-text" id="pcard"><?=$jornadas[4]['descripcion']?></p>
                             <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank" class="btn btn-primary">Reservar turno</a>
                         </div>
                     </div>
@@ -155,8 +154,8 @@ $jornadas = traerJornadas($db);
                     <div id="jornadas" class="card text-center">
                         <img src="img/bronceado.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title"><?=$jornadas[5]['descripcion']?></h5>
-                            <p class="card-text"><?=$jornadas[5]['fecha']?></p>
+                            <h5 class="card-title"><?=$jornadas[5]['fecha']?></h5>
+                            <p class="card-text" id="pcard"><?=$jornadas[5]['descripcion']?></p>
                             <a href="rutas/estetica" target="_blank" class="btn btn-primary">Consulte aqui</a>
                         </div>
                     </div>

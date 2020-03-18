@@ -6,9 +6,11 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
 #escritorio {
     display: none;
 }
+
 #construccion {
     margin-left: auto;
     margin-right: auto;
@@ -149,6 +151,7 @@ div#portada1 {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 div#portada2 {
     margin-top: 1%;
     display: flex;
@@ -224,7 +227,7 @@ iframe#virtual {
     height: 85vh;
 }
 
-iframe#mapa{
+iframe#mapa {
     height: 50vh;
 }
 
@@ -265,25 +268,29 @@ span#empresas {
     grid-gap: 10px;
     grid-auto-rows: minmax(180px, auto);
     grid-auto-flow: dense;
-    
+
 
 }
+
 #kine1 {
-  background-image: url('../img/12.jpg'); 
-  background-size: cover;
-  background-position: top; 
+    background-image: url('../img/12.jpg');
+    background-size: cover;
+    background-position: top;
 }
+
 #kine2 {
-    display:none;
-    background-image: url('../img/13.jpg'); 
+    display: none;
+    background-image: url('../img/13.jpg');
     background-size: cover;
-    background-position: top; 
-  }
-  #kine3 {
-    background-image: url('../img/8.jpg'); 
+    background-position: top;
+}
+
+#kine3 {
+    background-image: url('../img/8.jpg');
     background-size: cover;
-    background-position: top; 
-  }
+    background-position: top;
+}
+
 .grid-item {
     padding: 1rem;
     font-size: 14px;
@@ -308,37 +315,53 @@ span#empresas {
     grid-column-end: span 3;
     grid-row-end: span 4;
 }
+
 #whatsapp {
     position: fixed;
     top: 85%;
     left: 80%;
 }
+
 #whatsapp img {
-    transition:all 1s;
+    transition: all 1s;
     width: 65%;
 }
+
 #whatsapp img:hover {
     transform: scale(1.25);
 }
+
 #whatsapp img:active {
     transform: scale(0.80);
 }
+
 #mareaFooter {
     width: 40%;
 }
+
 #img360 {
     width: 50%;
 }
 
+#promoEscritorio {
+    display: none;
+}
+
+#promoMobile {
+    margin-bottom: 5%;
+}
 
 
+/*********************************************************************/
 @media(min-width: 1000px) {
     #escritorio {
         display: initial;
     }
+
     #mobile {
         display: none;
     }
+
     div#portada1 {
         display: flex;
         justify-content: center;
@@ -353,6 +376,7 @@ span#empresas {
         border-radius: 1rem;
         box-shadow: 2px 2px 5px gray;
     }
+
     div#portada2 {
         margin-top: 0;
         display: flex;
@@ -548,69 +572,112 @@ span#empresas {
     .tituloIndex {
         font-size: 4rem;
     }
+
     img.card-img {
         height: 100%;
     }
+
     #whatsapp {
         position: fixed;
         top: 90%;
         left: 93%;
     }
+
     #whatsapp img {
-        transition:all 1s;
+        transition: all 0.5s;
         width: 45%;
     }
+
     #whatsapp img:hover {
         transform: scale(1.25);
     }
+
     #whatsapp img:active {
         transform: scale(0.80);
     }
+
     div#medicas {
-        display:flex;
+        display: flex;
         align-items: center;
     }
+
     ul#ulFooter {
         font-size: 0.9em;
     }
+
     #mareaFooter {
         padding: 1%;
         width: 15%;
         transition: .2s ease;
     }
+
     #mareaFooter:hover {
         filter: invert(0.9);
-        
+
     }
+
     div.modal-dialog.modal-lg {
         max-width: 95%;
     }
+
     #img360 {
         width: 20%;
     }
+
     a.linkPortada {
         transition: all 300ms;
     }
+
     #portada1:hover .tituloIndex {
         transform: scale(1.2);
     }
+
     #portada2:hover .tituloIndex {
         transform: scale(1.2);
     }
+
     a.linkPortada:hover {
         text-decoration: none;
     }
+
     #kine2 {
         display: block;
     }
+
     .list-group {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         height: 110vh;
     }
+
     td.align-middle {
         width: 33%;
     }
-    
+
+    #panel {
+        width: 60%;
+    }
+
+    #panel input {
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    #promoMobile {
+        display: none;
+    }
+
+    #promoEscritorio {
+        text-align: center;
+        display: block;
+        margin-bottom: 7%;
+    }
+
+    #pcard {
+        height: 8vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }

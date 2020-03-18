@@ -33,7 +33,7 @@ function traerPromos(PDO $db)
 
 function guardarJornadas(PDO $db, $fecha, $i)
 {
-    $consulta = $db->prepare("UPDATE jornadas SET fecha = $fecha WHERE jornadas.id = $i");
+    $consulta = $db->prepare("UPDATE jornadas SET fecha = '$fecha' WHERE jornadas.id = $i");
     return $consulta->execute();
 }
 function guardarPromos(PDO $db, $valor, $i)

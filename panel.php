@@ -1,3 +1,4 @@
+
 <?php
 require_once('db/db.php');
 $db = obtenerBaseDeDatos();
@@ -43,13 +44,29 @@ $jornadas = traerJornadas($db);
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="shortcut icon" href="img/logomini.png" type="image/x-icon">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    
     
     <title>Consultorio Belgrano</title>
 </head>
 
+<script>
+let ingreso = prompt('INGRESE SU CONTRASEÑA')
+if(ingreso === 'belgrano2020') {
+} else {
+    alert('Contraseña equivocada')
+    window.location="http://www.consultoriosBelgrano/index2"
+}
+</script>
+
 <body>
+
+<?php
+if($_POST) { echo "<script> swal('Actualizacion exitosa', 'success')</script>";}
+?>
+
 
     <header class="sticky-top">
         <nav id="barraMenu" class="navbar navbar-expand-lg navbar-light p-2 mb-3 bg-white rounded">
@@ -92,7 +109,8 @@ $jornadas = traerJornadas($db);
     </header>
     
 
-<div class="container form-group">
+    <h2 class="text-center my-3">PANEL DE ADMINISTRACION</h2>
+<div id="panel" class="container form-group">
    <form action="panel.php" method="post" style="display:flex; flex-direction:column">
       <label class="font-weight-bold" for="">JORNADA 1</label>
       <input type="text" name=""value="<?=$jornadas[0]['descripcion']?>">
@@ -131,19 +149,19 @@ $jornadas = traerJornadas($db);
       <input type="text" name="promos[]"value="<?=$promos[7]['valor']?>">
       <input type="text" name=""value="<?=$promos[8]['descripcion']?>">
       <input type="text" name="promos[]"value="<?=$promos[8]['valor']?>">
-      <label for="">PROMOS CRIOLIPOLISIS</label>
+      <label class="font-weight-bold" for="">PROMOS CRIOLIPOLISIS</label>
       <input type="text" name=""value="<?=$promos[9]['descripcion']?>">
       <input type="text" name="promos[]"value="<?=$promos[9]['valor']?>">
       <input type="text" name=""value="<?=$promos[10]['descripcion']?>">
       <input type="text" name="promos[]"value="<?=$promos[10]['valor']?>">
-      <label for="">PROMOS TESLAGEN</label>
+      <label class="font-weight-bold" for="">PROMOS TESLAGEN</label>
       <input type="text" name=""value="<?=$promos[11]['descripcion']?>">
       <input type="text" name="promos[]"value="<?=$promos[11]['valor']?>">
-      <label for="">PROMOS VENUS</label>
+      <label class="font-weight-bold" for="">PROMOS VENUS</label>
       <input type="text" name=""value="<?=$promos[12]['descripcion']?>">
       <input type="text" name="promos[]"value="<?=$promos[12]['valor']?>">
 
-      <input type="submit">
+      <input type="submit" class="btn btn-success">
    </form>
 
 
