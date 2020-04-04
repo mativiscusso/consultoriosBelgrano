@@ -22,9 +22,42 @@ function traerJornadas(PDO $db)
     return $resultado;
  
 }
-function traerPromos(PDO $db)
+// function traerPromos(PDO $db)
+// {
+//     $consulta = $db->prepare("SELECT categoria, descripcion, valor FROM promociones");
+//     $consulta->execute();
+//     $resultado = $consulta->fetchAll(PDO::FETCH_ASSOC);
+//     return $resultado;
+
+// }
+
+function traerPromosDepi(PDO $db)
 {
-    $consulta = $db->prepare("SELECT categoria, descripcion, valor FROM promociones");
+    $consulta = $db->prepare("SELECT * FROM promociones WHERE categoria  = 'depilacion' ");
+    $consulta->execute();
+    $resultado = $consulta->fetchAll(PDO::FETCH_ASSOC);
+    return $resultado;
+
+}
+function traerPromosCrio(PDO $db)
+{
+    $consulta = $db->prepare("SELECT * FROM promociones WHERE categoria = 'criolipolisis' ");
+    $consulta->execute();
+    $resultado = $consulta->fetchAll(PDO::FETCH_ASSOC);
+    return $resultado;
+
+}
+function traerPromosTesla(PDO $db)
+{
+    $consulta = $db->prepare("SELECT * FROM promociones WHERE categoria = 'teslagen' ");
+    $consulta->execute();
+    $resultado = $consulta->fetchAll(PDO::FETCH_ASSOC);
+    return $resultado;
+
+}
+function traerPromosVenus(PDO $db)
+{
+    $consulta = $db->prepare("SELECT * FROM promociones WHERE categoria = 'venus' ");
     $consulta->execute();
     $resultado = $consulta->fetchAll(PDO::FETCH_ASSOC);
     return $resultado;
@@ -39,6 +72,14 @@ function guardarJornadas(PDO $db, $fecha, $i)
 function guardarPromos(PDO $db, $valor, $i)
 {
     $consulta = $db->prepare("UPDATE promociones SET valor = $valor WHERE promociones.id = $i");
+    $consulta->execute();
+}
+function insertarPromos(PDO $db, $categoria, $descripcion, $valor) {
+    $consulta = $db->prepare("INSERT INTO promociones (categoria, descripcion, valor) VALUES ('$categoria', '$descripcion', '$valor')");
+    $consulta->execute();
+}
+function borrarPromos(PDO $db, $id) {
+    $consulta = $db->prepare("DELETE FROM `promociones` WHERE `promociones`.`id` = $id");
     $consulta->execute();
 }
 ?>

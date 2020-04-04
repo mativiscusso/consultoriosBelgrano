@@ -2,7 +2,10 @@
 require_once('header.php');
 require_once('../db/db.php');
 $db = obtenerBaseDeDatos();
-$promos = traerPromos($db);
+$promosDepi = traerPromosDepi($db);
+$promosCrio = traerPromosCrio($db);
+$promosTesla = traerPromosTesla($db);
+$promosVenus = traerPromosVenus($db);
 
 ?>
 
@@ -23,141 +26,68 @@ $promos = traerPromos($db);
             <table class="table">
                 <tbody>
                     <tr>DEPILACION DEFINITIVA</tr>
-                    <tr>
-                        <td class="align-middle"><?=$promos[0]['descripcion']?></td>
-                        <td class="align-middle">$<?=$promos[0]['valor']?></td>
+                    <?php for ($i=0; $i < count($promosDepi) ; $i++) :?> 
+                        <tr>
+                        <td class="align-middle"><?=$promosDepi[$i]['descripcion']?></td>
+                        <td class="align-middle">$<?=$promosDepi[$i]['valor']?></td>
                         <td>
                             <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank">
                                 <button type="button" class="btn btn-info">QUIERO LA PROMO</button>
                             </a>
                         </td>
                     </tr>
-                    <tr>
-                        <td class="align-middle"><?=$promos[1]['descripcion']?></td>
-                        <td class="align-middle">$<?=$promos[1]['valor']?></td>
-                        <td>
-                            <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank">
-                                <button type="button" class="btn btn-info">QUIERO LA PROMO</button>
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="align-middle"><?=$promos[2]['descripcion']?></td>
-                        <td class="align-middle">$<?=$promos[2]['valor']?></td>
-                        <td>
-                            <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank">
-                                <button type="button" class="btn btn-info">QUIERO LA PROMO</button>
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="align-middle"><?=$promos[3]['descripcion']?></td>
-                        <td class="align-middle">$<?=$promos[3]['valor']?></td>
-                        <td>
-                            <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank">
-                                <button type="button" class="btn btn-info">QUIERO LA PROMO</button>
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="align-middle"><?=$promos[4]['descripcion']?></td>
-                        <td class="align-middle">$<?=$promos[4]['valor']?></td>
-                        <td>
-                            <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank">
-                                <button type="button" class="btn btn-info">QUIERO LA PROMO</button>
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="align-middle"><?=$promos[5]['descripcion']?></td>
-                        <td class="align-middle">$<?=$promos[5]['valor']?></td>
-                        <td>
-                            <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank">
-                                <button type="button" class="btn btn-info">QUIERO LA PROMO</button>
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="align-middle"><?=$promos[6]['descripcion']?></td>
-                        <td class="align-middle">$<?=$promos[6]['valor']?></td>
-                        <td>
-                            <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank">
-                                <button type="button" class="btn btn-info">QUIERO LA PROMO</button>
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="align-middle"><?=$promos[7]['descripcion']?></td>
-                        <td class="align-middle">$<?=$promos[7]['valor']?></td>
-                        <td>
-                            <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank">
-                                <button type="button" class="btn btn-info">QUIERO LA PROMO</button>
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="align-middle"><?=$promos[8]['descripcion']?></td>
-                        <td class="align-middle">$<?=$promos[8]['valor']?></td>
-                        <td>
-                            <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank">
-                                <button type="button" class="btn btn-info">QUIERO LA PROMO</button>
-                            </a>
-                        </td>
-                    </tr>
+                    <?php endfor?>
                 </tbody>
             </table>
 
             <table class="table">
                 <tbody>
                     <tr>CRIOLIPOLISIS</tr>
+                    <?php for ($i=0; $i < count($promosCrio) ; $i++) :?> 
                     <tr>
-                        <td class="align-middle"><?=$promos[9]['descripcion']?></td>
-                        <td class="align-middle">$<?=$promos[9]['valor']?></td>
+                        <td class="align-middle"><?=$promosCrio[$i]['descripcion']?></td>
+                        <td class="align-middle">$<?=$promosCrio[$i]['valor']?></td>
                         <td>
                             <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank">
                                 <button type="button" class="btn btn-info">QUIERO LA PROMO</button>
                             </a>
                         </td>
                     </tr>
-                    <tr>
-                        <td class="align-middle"><?=$promos[10]['descripcion']?></td>
-                        <td class="align-middle">$<?=$promos[10]['valor']?></td>
-                        <td>
-                            <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank">
-                                <button type="button" class="btn btn-info">QUIERO LA PROMO</button>
-                            </a>
-                        </td>
-                    </tr>
+                    <?php endfor?>
                 </tbody>
             </table>
 
             <table class="table">
                 <tbody>
                     <tr>TESLAGEN</tr>
+                    <?php for ($i=0; $i < count($promosTesla) ; $i++) :?> 
                     <tr>
-                        <td class="align-middle"><?=$promos[11]['descripcion']?></td>
-                        <td class="align-middle">$<?=$promos[11]['valor']?></td>
+                        <td class="align-middle"><?=$promosTesla[$i]['descripcion']?></td>
+                        <td class="align-middle">$<?=$promosTesla[$i]['valor']?></td>
                         <td>
                             <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank">
                                 <button type="button" class="btn btn-info">QUIERO LA PROMO</button>
                             </a>
                         </td>
                     </tr>
+                    <?php endfor?>
                 </tbody>
             </table>
 
             <table class="table">
                 <tbody>
                     <tr>VENUS LEGACY</tr>
+                    <?php for ($i=0; $i < count($promosVenus) ; $i++) :?> 
                     <tr>
-                        <td class="align-middle"><?=$promos[12]['descripcion']?></td>
-                        <td class="align-middle">$<?=$promos[12]['valor']?></td>
+                        <td class="align-middle"><?=$promosVenus[$i]['descripcion']?></td>
+                        <td class="align-middle">$<?=$promosVenus[$i]['valor']?></td>
                         <td>
                             <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank">
                                 <button type="button" class="btn btn-info">QUIERO LA PROMO</button>
                             </a>
                         </td>
                     </tr>
+                    <?php endfor?>
                 </tbody>
             </table>
         </div>

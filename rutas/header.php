@@ -50,6 +50,9 @@
                         <a class="nav-link" href="obrasociales">OBRAS SOCIALES</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="360">TOUR 360</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="contacto">CONTACTO</a>
                     </li>
                 </ul>

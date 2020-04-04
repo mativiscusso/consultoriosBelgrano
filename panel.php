@@ -1,7 +1,7 @@
-
 <?php
 require_once('db/db.php');
 $db = obtenerBaseDeDatos();
+
 if ($_POST) {
     $jornadasAGuardar = $_POST['jornadas'];
     $promosAGuardar = $_POST['promos'];
@@ -17,8 +17,14 @@ if ($_POST) {
           $cont ++;
           guardarPromos($db, $promosAGuardar[$i], $cont);
       }
+
+    
 }
-$promos = traerPromos($db);
+$promosDepi = traerPromosDepi($db);
+
+$promosCrio = traerPromosCrio($db);
+$promosTesla = traerPromosTesla($db);
+$promosVenus = traerPromosVenus($db);
 $jornadas = traerJornadas($db);
 
 ?>
@@ -47,30 +53,30 @@ $jornadas = traerJornadas($db);
     <link rel="shortcut icon" href="img/logomini.png" type="image/x-icon">
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
-    
-    
+
+
     <title>Consultorio Belgrano</title>
 </head>
 
 <script>
-let ingreso = prompt('INGRESE SU CONTRASEÑA')
-if(ingreso === 'belgrano2020') {
-} else {
-    alert('Contraseña equivocada')
-    window.location="http://www.consultoriosBelgrano/index2"
-}
+    let ingreso = prompt('INGRESE SU CONTRASEÑA')
+    if (ingreso === 'belgrano2020') {} else {
+        alert('Contraseña equivocada')
+        window.location = "http://www.consultoriosBelgrano/index2"
+    }
 </script>
 
 <body>
 
-<?php
+    <?php
 if($_POST) { echo "<script> swal('Actualizacion exitosa', 'success')</script>";}
 ?>
 
 
     <header class="sticky-top">
         <nav id="barraMenu" class="navbar navbar-expand-lg navbar-light p-2 mb-3 bg-white rounded">
-            <a id="logo" class="navbar-brand animated pulse delay-1s" href="index2"><img class="logo" src="img/logoBC.png" alt=""></a>
+            <a id="logo" class="navbar-brand animated pulse delay-1s" href="index2"><img class="logo"
+                    src="img/logoBC.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -107,65 +113,112 @@ if($_POST) { echo "<script> swal('Actualizacion exitosa', 'success')</script>";}
             </div>
         </nav>
     </header>
-    
+
 
     <h2 class="text-center my-3">PANEL DE ADMINISTRACION</h2>
-<div id="panel" class="container form-group">
-   <form action="panel.php" method="post" style="display:flex; flex-direction:column">
-      <label class="font-weight-bold" for="">JORNADA 1</label>
-      <input type="text" name=""value="<?=$jornadas[0]['descripcion']?>">
-      <input type="text" name="jornadas[]"value="<?=$jornadas[0]['fecha']?>">
-      <label class="font-weight-bold" for="">JORNADA 2</label>
-      <input type="text" name=""value="<?=$jornadas[1]['descripcion']?>">
-      <input type="text" name="jornadas[]"value="<?=$jornadas[1]['fecha']?>">
-      <label class="font-weight-bold" for="">JORNADA 3</label>
-      <input type="text" name=""value="<?=$jornadas[2]['descripcion']?>">
-      <input type="text" name="jornadas[]"value="<?=$jornadas[2]['fecha']?>">
-      <label class="font-weight-bold" for="">JORNADA 4</label>
-      <input type="text" name=""value="<?=$jornadas[3]['descripcion']?>">
-      <input type="text" name="jornadas[]"value="<?=$jornadas[3]['fecha']?>">
-      <label class="font-weight-bold" for="">JORNADA 5</label>
-      <input type="text" name=""value="<?=$jornadas[4]['descripcion']?>">
-      <input type="text" name="jornadas[]"value="<?=$jornadas[4]['fecha']?>">
-      <label class="font-weight-bold" for="">JORNADA 6</label>
-      <input type="text" name=""value="<?=$jornadas[5]['descripcion']?>">
-      <input type="text" name="jornadas[]"value="<?=$jornadas[5]['fecha']?>">
-      <label class="font-weight-bold" for="">PROMOS DEPILACION</label>
-      <input type="text" name=""value="<?=$promos[0]['descripcion']?>">
-      <input type="text" name="promos[]"value="<?=$promos[0]['valor']?>">
-      <input type="text" name=""value="<?=$promos[1]['descripcion']?>">
-      <input type="text" name="promos[]"value="<?=$promos[1]['valor']?>">
-      <input type="text" name=""value="<?=$promos[2]['descripcion']?>">
-      <input type="text" name="promos[]"value="<?=$promos[2]['valor']?>">
-      <input type="text" name=""value="<?=$promos[3]['descripcion']?>">
-      <input type="text" name="promos[]"value="<?=$promos[3]['valor']?>">
-      <input type="text" name=""value="<?=$promos[4]['descripcion']?>">
-      <input type="text" name="promos[]"value="<?=$promos[4]['valor']?>">
-      <input type="text" name=""value="<?=$promos[5]['descripcion']?>">
-      <input type="text" name="promos[]"value="<?=$promos[5]['valor']?>">
-      <input type="text" name=""value="<?=$promos[6]['descripcion']?>">
-      <input type="text" name="promos[]"value="<?=$promos[6]['valor']?>">
-      <input type="text" name=""value="<?=$promos[7]['descripcion']?>">
-      <input type="text" name="promos[]"value="<?=$promos[7]['valor']?>">
-      <input type="text" name=""value="<?=$promos[8]['descripcion']?>">
-      <input type="text" name="promos[]"value="<?=$promos[8]['valor']?>">
-      <label class="font-weight-bold" for="">PROMOS CRIOLIPOLISIS</label>
-      <input type="text" name=""value="<?=$promos[9]['descripcion']?>">
-      <input type="text" name="promos[]"value="<?=$promos[9]['valor']?>">
-      <input type="text" name=""value="<?=$promos[10]['descripcion']?>">
-      <input type="text" name="promos[]"value="<?=$promos[10]['valor']?>">
-      <label class="font-weight-bold" for="">PROMOS TESLAGEN</label>
-      <input type="text" name=""value="<?=$promos[11]['descripcion']?>">
-      <input type="text" name="promos[]"value="<?=$promos[11]['valor']?>">
-      <label class="font-weight-bold" for="">PROMOS VENUS</label>
-      <input type="text" name=""value="<?=$promos[12]['descripcion']?>">
-      <input type="text" name="promos[]"value="<?=$promos[12]['valor']?>">
+    <div id="panel" class="container form-group">
+        <form action="panel.php" method="post" style="display:flex; flex-direction:column">
+            <?php for ($i=0; $i < count($jornadas) ; $i++) :?>
+            <label class="font-weight-bold" for="">JORNADA <?=$i+1?></label>
+            <input type="text" name="" value="<?=$jornadas[$i]['descripcion']?>">
+            <input type="text" name="jornadas[]" value="<?=$jornadas[$i]['fecha']?>">
+            <?php endfor; ?>
+            <br>
+            <br>
+            <h4 class="font-weight-bold">PROMOS</h4>
+            <?php for ($i=0; $i < count($promosDepi) ; $i++) :?>
+            <span class="text-uppercase font-weight-bold"><?=$promosDepi[$i]['categoria']?></span>
+            ID = <?=$promosDepi[$i]['id']?>
+            <input type="text" name="" value="<?=$promosDepi[$i]['descripcion']?>">
+            <input type="text" name="jornadas[]" value="<?=$promosDepi[$i]['valor']?>">
+            <?php endfor; ?>
+            <?php for ($i=0; $i < count($promosCrio) ; $i++) :?>
+            <span class="text-uppercase font-weight-bold"><?=$promosCrio[$i]['categoria']?></span>
+            ID = <?=$promosCrio[$i]['id']?>
+            <input type="text" name="" value="<?=$promosCrio[$i]['descripcion']?>">
+            <input type="text" name="jornadas[]" value="<?=$promosCrio[$i]['valor']?>">
+            <?php endfor; ?>
+            <?php for ($i=0; $i < count($promosTesla) ; $i++) :?>
+            <span class="text-uppercase font-weight-bold"><?=$promosTesla[$i]['categoria']?></span>
+            ID = <?=$promosTesla[$i]['id']?>
+            <input type="text" name="" value="<?=$promosTesla[$i]['descripcion']?>">
+            <input type="text" name="jornadas[]" value="<?=$promosTesla[$i]['valor']?>">
+            <?php endfor; ?>
+            <?php for ($i=0; $i < count($promosVenus) ; $i++) :?>
+            <span class="text-uppercase font-weight-bold"><?=$promosVenus[$i]['categoria']?></span>
+            ID = <?=$promosVenus[$i]['id']?>
+            <input type="text" name="" value="<?=$promosVenus[$i]['descripcion']?>">
+            <input type="text" name="jornadas[]" value="<?=$promosVenus[$i]['valor']?>">
+            <?php endfor; ?>
 
-      <input type="submit" class="btn btn-success">
-   </form>
+            <input type="submit" class="btn btn-success" value="MODIFICAR PROMOS">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                CARGAR PROMOS
+            </button>
+            <br>
+            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal2">
+                BORRAR PROMOS
+            </button>
+        </form>
 
 
-</div>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Agregar Promociones</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="agregar.php" method="post">
+                            <label class="w-25" for="">Descripcion</label>
+                            <input type="text" name="descripcion"><br>
+                            <label class="w-25" for="">Precio</label>
+                            <input type="text" name="valor" id="" placeholder="$"><br>
+                            <select class="custom-select" name="categoria" id="inputGroupSelect01">
+                                <option value="depilacion">Depilacion</option>
+                                <option value="criolipolisis">Criolipolisis</option>
+                                <option value="teslagen">Teslagen</option>
+                                <option value="venus">Venus</option>
+                            </select>
+                            <input type="submit" value="Agregar" class="btn btn-success">
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Borrar Promociones</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="borrar.php" method="post">
+                            <label class="w-25" for="">ID</label>
+                            <input type="text" name="id">
+                            <input type="submit" value="Borrar" class="btn btn-danger">
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
 
 </body>
+
 </html>
