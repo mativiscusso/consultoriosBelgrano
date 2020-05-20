@@ -1,5 +1,5 @@
 <?php
 require_once('db/db.php');
 $db = obtenerBaseDeDatos();
-insertarPromos($db, $_POST['categoria'], $_POST['descripcion'], $_POST['valor']);  
+guardarPromos($db, $_POST['descripcion'], $_POST['valor'], $_POST['id']);  
 header('Location: https://www.consultoriobelgrano.com/panel.php');

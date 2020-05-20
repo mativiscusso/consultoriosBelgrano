@@ -429,11 +429,11 @@ span#empresas {
     }
 
     a#logo {
-        width: 40%;
+        width: 30%;
     }
 
     a#logo img {
-        width: 50%;
+        width: 55%;
     }
 
     nav#barraMenu {
@@ -602,6 +602,8 @@ span#empresas {
     }
 
     ul#ulFooter {
+        padding-top: 2%;
+        padding-inline-start: 0!important;
         font-size: 0.9em;
     }
 
@@ -679,5 +681,8 @@ span#empresas {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    #navbarSupportedContent {
+        justify-content: flex-end;
     }
 }

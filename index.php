@@ -36,7 +36,7 @@ $jornadas = traerJornadas($db);
 
     <header class="sticky-top">
         <nav id="barraMenu" class="navbar navbar-expand-lg navbar-light p-2 mb-3 bg-white rounded">
-            <a id="logo" class="navbar-brand animated pulse delay-1s" href="index2"><img class="logo"
+            <a id="logo" class="navbar-brand animated pulse delay-1s" href="/"><img class="logo"
                     src="img/logoBC.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -163,7 +163,7 @@ $jornadas = traerJornadas($db);
             </div>
             <div data-aos="zoom-in" class="col-12 col-sm-6 col-md-4 py-2">
                 <div id="jornadas" class="card text-center">
-                    <img src="img/portada.jpg" class="card-img-top" alt="...">
+                    <img src="img/portadapromo.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><?=$jornadas[5]['fecha']?></h5>
                         <p class="card-text" id="pcard"><?=$jornadas[5]['descripcion']?></p>
@@ -175,12 +175,7 @@ $jornadas = traerJornadas($db);
     </div>
 
 
-    <div class="container py-5">
-        <iframe id="mapa" data-aos="fade-in"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.4103870886033!2d-60.71751338525432!3d-32.940172878889605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b6532c9d4f92e3%3A0x7bd635baee85c183!2sNuevos%20Consultorios%20Belgrano!5e0!3m2!1ses!2sar!4v1574174788651!5m2!1ses!2sar"
-            width="100%" frameborder="0" style="border:0;" allowfullscreen="">
-        </iframe>
-    </div>
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();

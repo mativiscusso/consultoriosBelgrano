@@ -1,36 +1,24 @@
 <?php
 require_once('db/db.php');
 $db = obtenerBaseDeDatos();
-
 if ($_POST) {
-    $jornadasAGuardar = $_POST['jornadas'];
-    $promosAGuardar = $_POST['promos'];
+    $jornadasAGuardarValor = $_POST['jornadas'];
+    $jornadasAGuardarDescripcion = $_POST['descripcionJornadas'];
 
     $conta = 1;
-      for ($i=0; $i < count($jornadasAGuardar) ; $i++) { 
+      for ($i=0; $i < count($jornadasAGuardarValor) ; $i++) { 
           $conta ++;
-          guardarJornadas($db, $jornadasAGuardar[$i], $conta);
+          guardarJornadas($db, $jornadasAGuardarValor[$i], $jornadasAGuardarDescripcion[$i], $conta);
       }
-
-    $cont = 1;
-      for ($i=0; $i < count($promosAGuardar) ; $i++) { 
-          $cont ++;
-          guardarPromos($db, $promosAGuardar[$i], $cont);
-      }
-
-    
 }
 $promosDepi = traerPromosDepi($db);
-
 $promosCrio = traerPromosCrio($db);
 $promosTesla = traerPromosTesla($db);
 $promosVenus = traerPromosVenus($db);
 $jornadas = traerJornadas($db);
-
 ?>
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -52,30 +40,20 @@ $jornadas = traerJornadas($db);
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="shortcut icon" href="img/logomini.png" type="image/x-icon">
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-
-
-
     <title>Consultorio Belgrano</title>
 </head>
 
+<body>
 <script>
-    let ingreso = prompt('INGRESE SU CONTRASEÑA')
-    if (ingreso === 'belgrano2020') {} else {
-        alert('Contraseña equivocada')
-        window.location = "http://www.consultoriosBelgrano/index2"
-    }
+   let clave = prompt('Ingrese su contraseña');
+   if (clave != 'consultoriobelgrano') {
+    location.href = "http://www.consultoriobelgrano.com"
+   }
 </script>
 
-<body>
-
-    <?php
-if($_POST) { echo "<script> swal('Actualizacion exitosa', 'success')</script>";}
-?>
-
-
-    <header class="sticky-top">
+<header class="sticky-top">
         <nav id="barraMenu" class="navbar navbar-expand-lg navbar-light p-2 mb-3 bg-white rounded">
-            <a id="logo" class="navbar-brand animated pulse delay-1s" href="index2"><img class="logo"
+            <a id="logo" class="navbar-brand animated pulse delay-1s" href="/"><img class="logo"
                     src="img/logoBC.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -114,56 +92,58 @@ if($_POST) { echo "<script> swal('Actualizacion exitosa', 'success')</script>";}
         </nav>
     </header>
 
-
     <h2 class="text-center my-3">PANEL DE ADMINISTRACION</h2>
-    <div id="panel" class="container form-group">
+    <div id="panel" class="container form-group pt-5">
         <form action="panel.php" method="post" style="display:flex; flex-direction:column">
             <?php for ($i=0; $i < count($jornadas) ; $i++) :?>
             <label class="font-weight-bold" for="">JORNADA <?=$i+1?></label>
-            <input type="text" name="" value="<?=$jornadas[$i]['descripcion']?>">
+            <input type="text" name="descripcionJornadas[]" value="<?=$jornadas[$i]['descripcion']?>">
             <input type="text" name="jornadas[]" value="<?=$jornadas[$i]['fecha']?>">
             <?php endfor; ?>
             <br>
+                <input type="submit" class="btn btn-success" value="MODIFICAR JORNADAS">
             <br>
             <h4 class="font-weight-bold">PROMOS</h4>
             <?php for ($i=0; $i < count($promosDepi) ; $i++) :?>
             <span class="text-uppercase font-weight-bold"><?=$promosDepi[$i]['categoria']?></span>
             ID = <?=$promosDepi[$i]['id']?>
-            <input type="text" name="" value="<?=$promosDepi[$i]['descripcion']?>">
-            <input type="text" name="jornadas[]" value="<?=$promosDepi[$i]['valor']?>">
+            <input type="text" name="descripcionPromos[]" value="<?=$promosDepi[$i]['descripcion']?>">
+            <input type="text" name="valorPromos[]" value="<?=$promosDepi[$i]['valor']?>">
             <?php endfor; ?>
             <?php for ($i=0; $i < count($promosCrio) ; $i++) :?>
             <span class="text-uppercase font-weight-bold"><?=$promosCrio[$i]['categoria']?></span>
             ID = <?=$promosCrio[$i]['id']?>
-            <input type="text" name="" value="<?=$promosCrio[$i]['descripcion']?>">
-            <input type="text" name="jornadas[]" value="<?=$promosCrio[$i]['valor']?>">
+            <input type="text" name="descripcionPromos[]" value="<?=$promosCrio[$i]['descripcion']?>">
+            <input type="text" name="valorPromos[]" value="<?=$promosCrio[$i]['valor']?>">
             <?php endfor; ?>
             <?php for ($i=0; $i < count($promosTesla) ; $i++) :?>
             <span class="text-uppercase font-weight-bold"><?=$promosTesla[$i]['categoria']?></span>
             ID = <?=$promosTesla[$i]['id']?>
-            <input type="text" name="" value="<?=$promosTesla[$i]['descripcion']?>">
-            <input type="text" name="jornadas[]" value="<?=$promosTesla[$i]['valor']?>">
+            <input type="text" name="descripcionPromos[]" value="<?=$promosTesla[$i]['descripcion']?>">
+            <input type="text" name="valorPromos[]" value="<?=$promosTesla[$i]['valor']?>">
             <?php endfor; ?>
             <?php for ($i=0; $i < count($promosVenus) ; $i++) :?>
             <span class="text-uppercase font-weight-bold"><?=$promosVenus[$i]['categoria']?></span>
             ID = <?=$promosVenus[$i]['id']?>
-            <input type="text" name="" value="<?=$promosVenus[$i]['descripcion']?>">
-            <input type="text" name="jornadas[]" value="<?=$promosVenus[$i]['valor']?>">
+            <input type="text" name="descripcionPromos[]" value="<?=$promosVenus[$i]['descripcion']?>">
+            <input type="text" name="valorPromos[]" value="<?=$promosVenus[$i]['valor']?>">
             <?php endfor; ?>
-
-            <input type="submit" class="btn btn-success" value="MODIFICAR PROMOS">
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            </form>
+            <div class="row justify-content-between">
+            <button type="button" class="btn btn-primary m-1" style="width:32%"  data-toggle="modal" data-target="#cargarPromos">
                 CARGAR PROMOS
             </button>
-            <br>
-            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal2">
+            <button type="button" class="btn btn-success m-1"  style="width:32%" data-toggle="modal" data-target="#modificarPromos">
+                EDITAR PROMOS
+            </button>
+            <button type="button" class="btn btn-danger m-1"  style="width:32%" data-toggle="modal" data-target="#borrarPromos">
                 BORRAR PROMOS
             </button>
-        </form>
+            </div>
 
 
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        <!-- Modal CargaPromo-->
+        <div class="modal fade" id="cargarPromos" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
             aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -193,8 +173,35 @@ if($_POST) { echo "<script> swal('Actualizacion exitosa', 'success')</script>";}
                 </div>
             </div>
         </div>
-
-        <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        <!-- Modal ModificarPromo-->
+         <div class="modal fade" id="modificarPromos" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modificar Promociones</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="modificar.php" method="post">
+                            <label class="w-25" for="">ID</label>
+                            <input type="text" name="id"><br>
+                            <label class="w-25" for="">Descripcion</label>
+                            <input type="text" name="descripcion"><br>
+                            <label class="w-25" for="">Precio</label>
+                            <input type="text" name="valor" id="" placeholder="$"><br>
+                            <input type="submit" value="Modificar" class="btn btn-success">
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal BorraPromo -->
+        <div class="modal fade" id="borrarPromos" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
             aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -222,3 +229,4 @@ if($_POST) { echo "<script> swal('Actualizacion exitosa', 'success')</script>";}
 </body>
 
 </html>
+

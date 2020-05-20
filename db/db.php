@@ -1,9 +1,12 @@
 <?php
 function obtenerBaseDeDatos()
 {
-$nombre_base_de_datos = "belgrano";
-    $usuario = "root";
-    $contraseña = "";
+    // $nombre_base_de_datos = "belgrano";
+    // $usuario = "root";
+    // $contraseña = "";
+    $nombre_base_de_datos = "c1701135_belgran";
+    $usuario = "c1701135_belgran";
+    $contraseña = "niGAvito25";
     try {
         $base_de_datos = new PDO('mysql:host=localhost;dbname=' . $nombre_base_de_datos, $usuario, $contraseña);
         $base_de_datos->query("set names utf8;");
@@ -22,15 +25,21 @@ function traerJornadas(PDO $db)
     return $resultado;
  
 }
-// function traerPromos(PDO $db)
+// function traerUser(PDO $db)
 // {
-//     $consulta = $db->prepare("SELECT categoria, descripcion, valor FROM promociones");
+//     $consulta = $db->prepare("SELECT * FROM users");
 //     $consulta->execute();
 //     $resultado = $consulta->fetchAll(PDO::FETCH_ASSOC);
 //     return $resultado;
-
 // }
-
+function traerIdPromos(PDO $db)
+{
+    $consulta = $db->prepare("SELECT id FROM promociones");
+    $consulta->execute();
+    $resultado = $consulta->fetch(PDO::FETCH_ASSOC);
+    return $resultado;
+ 
+}
 function traerPromosDepi(PDO $db)
 {
     $consulta = $db->prepare("SELECT * FROM promociones WHERE categoria  = 'depilacion' ");
@@ -64,14 +73,14 @@ function traerPromosVenus(PDO $db)
 
 }
 
-function guardarJornadas(PDO $db, $fecha, $i)
+function guardarJornadas(PDO $db, $fecha, $descripcion, $i)
 {
-    $consulta = $db->prepare("UPDATE jornadas SET fecha = '$fecha' WHERE jornadas.id = $i");
+    $consulta = $db->prepare("UPDATE jornadas SET fecha = '$fecha', descripcion = '$descripcion' WHERE jornadas.id = $i");
     return $consulta->execute();
 }
-function guardarPromos(PDO $db, $valor, $i)
+function guardarPromos(PDO $db, $descripcion, $valor, $i)
 {
-    $consulta = $db->prepare("UPDATE promociones SET valor = $valor WHERE promociones.id = $i");
+    $consulta = $db->prepare("UPDATE promociones SET descripcion = '$descripcion', valor = $valor WHERE promociones.id = $i");
     $consulta->execute();
 }
 function insertarPromos(PDO $db, $categoria, $descripcion, $valor) {
