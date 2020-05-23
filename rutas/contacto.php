@@ -36,7 +36,7 @@ if(isset($_POST["nombre"]) && isset($_POST["email"]) && isset($_POST["mensaje"])
                     <label for="exampleFormControlTextarea1">Mensaje</label>
                     <textarea class="form-control" name="mensaje" id="exampleFormControlTextarea1" rows="3" required></textarea>
                 </div>
-                <button class="btn btn-primary" type="submit">Enviar</button>
+                <button class="btn btn-primary" type="submit" onclick="gtag('event', 'enlace', { 'event_category': 'contacto', 'event_action': 'formulario', 'event_label': 'click', 'value': '0'});">Enviar</button>
             </form>
         </div>
         <div class="col-12 col-md-6 animated fadeIn my-5">

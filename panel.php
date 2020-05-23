@@ -15,6 +15,9 @@ $promosDepi = traerPromosDepi($db);
 $promosCrio = traerPromosCrio($db);
 $promosTesla = traerPromosTesla($db);
 $promosVenus = traerPromosVenus($db);
+$promosPreso = traerPromosPreso($db);
+$promosBronceado = traerPromosBronceado($db);
+$promosPersonalizado = traerPromosPersonalizado($db);
 $jornadas = traerJornadas($db);
 ?>
 <!DOCTYPE html>
@@ -128,6 +131,24 @@ $jornadas = traerJornadas($db);
             <input type="text" name="descripcionPromos[]" value="<?=$promosVenus[$i]['descripcion']?>">
             <input type="text" name="valorPromos[]" value="<?=$promosVenus[$i]['valor']?>">
             <?php endfor; ?>
+            <?php for ($i=0; $i < count($promosPreso) ; $i++) :?>
+            <span class="text-uppercase font-weight-bold"><?=$promosPreso[$i]['categoria']?></span>
+            ID = <?=$promosPreso[$i]['id']?>
+            <input type="text" name="descripcionPromos[]" value="<?=$promosPreso[$i]['descripcion']?>">
+            <input type="text" name="valorPromos[]" value="<?=$promosPreso[$i]['valor']?>">
+            <?php endfor; ?>
+            <?php for ($i=0; $i < count($promosBronceado) ; $i++) :?>
+            <span class="text-uppercase font-weight-bold"><?=$promosBronceado[$i]['categoria']?></span>
+            ID = <?=$promosBronceado[$i]['id']?>
+            <input type="text" name="descripcionPromos[]" value="<?=$promosBronceado[$i]['descripcion']?>">
+            <input type="text" name="valorPromos[]" value="<?=$promosBronceado[$i]['valor']?>">
+            <?php endfor; ?>
+            <?php for ($i=0; $i < count($promosPersonalizado) ; $i++) :?>
+            <span class="text-uppercase font-weight-bold"><?=$promosPersonalizado[$i]['categoria']?></span>
+            ID = <?=$promosPersonalizado[$i]['id']?>
+            <input type="text" name="descripcionPromos[]" value="<?=$promosPersonalizado[$i]['descripcion']?>">
+            <input type="text" name="valorPromos[]" value="<?=$promosPersonalizado[$i]['valor']?>">
+            <?php endfor; ?>
             </form>
             <div class="row justify-content-between">
             <button type="button" class="btn btn-primary m-1" style="width:32%"  data-toggle="modal" data-target="#cargarPromos">
@@ -164,6 +185,9 @@ $jornadas = traerJornadas($db);
                                 <option value="criolipolisis">Criolipolisis</option>
                                 <option value="teslagen">Teslagen</option>
                                 <option value="venus">Venus</option>
+                                <option value="bronceado organico">Bronceado Orgánico</option>
+                                <option value="presoterapia">Presoterapia</option>
+                                <option value="personalizado">Personalizado</option>
                             </select>
                             <input type="submit" value="Agregar" class="btn btn-success">
                         </form>

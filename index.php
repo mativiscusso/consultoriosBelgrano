@@ -28,6 +28,25 @@ $jornadas = traerJornadas($db);
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="shortcut icon" href="img/logomini.png" type="image/x-icon">
+    <!-- Facebook Pixel Code -->
+        <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window,document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '2400015473572103'); 
+        fbq('track', 'PageView');
+        </script>
+        <noscript>
+        <img height="1" width="1" 
+        src="https://www.facebook.com/tr?id=2400015473572103&ev=PageView
+        &noscript=1"/>
+        </noscript>
+    <!-- End Facebook Pixel Code -->
 
     <title>Consultorio Belgrano</title>
 </head>
@@ -113,7 +132,7 @@ $jornadas = traerJornadas($db);
                         <h5 class="card-title"><?=$jornadas[0]['fecha']?></h5>
                         <p class="card-text" id="pcard"><?=$jornadas[0]['descripcion']?></p>
                         <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank"
-                            class="btn btn-primary">Reservar turno</a>
+                            class="btn btn-primary" onclick="gtag('event', 'enlace', { 'event_category': 'contacto', 'event_action': 'reservarturno', 'event_label': 'click', 'value': '0'});">Reservar turno</a>
                     </div>
                 </div>
             </div>
@@ -124,7 +143,7 @@ $jornadas = traerJornadas($db);
                         <h5 class="card-title"><?=$jornadas[1]['fecha']?></h5>
                         <p class="card-text" id="pcard"><?=$jornadas[1]['descripcion']?></p>
                         <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank"
-                            class="btn btn-primary">Reservar turno</a>
+                            class="btn btn-primary" onclick="gtag('event', 'enlace', { 'event_category': 'contacto', 'event_action': 'reservarturno', 'event_label': 'click', 'value': '0'});">Reservar turno</a>
                     </div>
                 </div>
             </div>
@@ -135,7 +154,7 @@ $jornadas = traerJornadas($db);
                         <h5 class="card-title"><?=$jornadas[2]['fecha']?></h5>
                         <p class="card-text" id="pcard"><?=$jornadas[2]['descripcion']?></p>
                         <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank"
-                            class="btn btn-primary">Reservar turno</a>
+                            class="btn btn-primary" onclick="gtag('event', 'enlace', { 'event_category': 'contacto', 'event_action': 'reservarturno', 'event_label': 'click', 'value': '0'});">Reservar turno</a>
                     </div>
                 </div>
             </div>
@@ -146,7 +165,7 @@ $jornadas = traerJornadas($db);
                         <h5 class="card-title"><?=$jornadas[3]['fecha']?></h5>
                         <p class="card-text" id="pcard"><?=$jornadas[3]['descripcion']?></p>
                         <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank"
-                            class="btn btn-primary">Reservar turno</a>
+                            class="btn btn-primary" onclick="gtag('event', 'enlace', { 'event_category': 'contacto', 'event_action': 'reservarturno', 'event_label': 'click', 'value': '0'});">Reservar turno</a>
                     </div>
                 </div>
             </div>
@@ -157,7 +176,7 @@ $jornadas = traerJornadas($db);
                         <h5 class="card-title"><?=$jornadas[4]['fecha']?></h5>
                         <p class="card-text" id="pcard"><?=$jornadas[4]['descripcion']?></p>
                         <a href="https://api.whatsapp.com/send?phone=5493416387507" target="_blank"
-                            class="btn btn-primary">Reservar turno</a>
+                            class="btn btn-primary" onclick="gtag('event', 'enlace', { 'event_category': 'contacto', 'event_action': 'reservarturno', 'event_label': 'click', 'value': '0'});">Reservar turno</a>
                     </div>
                 </div>
             </div>
@@ -167,7 +186,7 @@ $jornadas = traerJornadas($db);
                     <div class="card-body">
                         <h5 class="card-title"><?=$jornadas[5]['fecha']?></h5>
                         <p class="card-text" id="pcard"><?=$jornadas[5]['descripcion']?></p>
-                        <a href="rutas/estetica" target="_blank" class="btn btn-primary">Consulte aqui</a>
+                        <a href="rutas/estetica" target="_blank" class="btn btn-primary" onclick="gtag('event', 'enlace', { 'event_category': 'contacto', 'event_action': 'reservarturno', 'event_label': 'click', 'value': '0'});">Consulte aqui</a>
                     </div>
                 </div>
             </div>

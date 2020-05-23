@@ -70,7 +70,27 @@ function traerPromosVenus(PDO $db)
     $consulta->execute();
     $resultado = $consulta->fetchAll(PDO::FETCH_ASSOC);
     return $resultado;
-
+}
+function traerPromosPreso(PDO $db)
+{
+    $consulta = $db->prepare("SELECT * FROM promociones WHERE categoria = 'presoterapia' ");
+    $consulta->execute();
+    $resultado = $consulta->fetchAll(PDO::FETCH_ASSOC);
+    return $resultado;
+}
+function traerPromosBronceado(PDO $db)
+{
+    $consulta = $db->prepare("SELECT * FROM promociones WHERE categoria = 'bronceado organico' ");
+    $consulta->execute();
+    $resultado = $consulta->fetchAll(PDO::FETCH_ASSOC);
+    return $resultado;
+}
+function traerPromosPersonalizado(PDO $db)
+{
+    $consulta = $db->prepare("SELECT * FROM promociones WHERE categoria = 'personalizado' ");
+    $consulta->execute();
+    $resultado = $consulta->fetchAll(PDO::FETCH_ASSOC);
+    return $resultado;
 }
 
 function guardarJornadas(PDO $db, $fecha, $descripcion, $i)
